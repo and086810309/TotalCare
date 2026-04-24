@@ -1,0 +1,146 @@
+08-03-2024 12:43 p. m.	 >>> 	Nota de débito # ND123 :: Invalid field name ::: 
+08-03-2024 12:46 p. m.	 >>> 	NotaDeDebito:ND123 ** -2028: Código SN no permitido  [ORPC.CardCode] , 'C12345'
+08-03-2024 12:46 p. m.	 >>> 	Nota de débito # ND123 ::  ** -2028: Código SN no permitido  [ORPC.CardCode] , 'C12345' :: ND123Código SN no permitido  [ORPC.CardCode] , 'C12345' ::: 
+08-03-2024 12:52 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '051668920'
+08-03-2024 12:53 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '051668920' :: ND123El SN seleccionado no es proveedor  [ORPC.CardCode] , '051668920' ::: 
+08-03-2024 04:25 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '051668920'
+08-03-2024 04:25 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '051668920' :: ND123El SN seleccionado no es proveedor  [ORPC.CardCode] , '051668920' ::: 
+08-03-2024 04:30 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 04:31 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 04:32 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 04:32 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 04:37 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 04:39 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 05:21 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 05:22 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 05:23 p. m.	 >>> 	NotaDeDebito:ND123 ** -2028: No existen registros coincidentes (ODBC -2028)
+08-03-2024 05:26 p. m.	 >>> 	Nota de débito # ND123 ::  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123No existen registros coincidentes (ODBC -2028) ::: 
+08-03-2024 05:34 p. m.	 >>> 	NotaDeDebito:ND123 ** -2028: No existen registros coincidentes (ODBC -2028)
+08-03-2024 05:35 p. m.	 >>> 	Nota de débito # ND123 ::  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123No existen registros coincidentes (ODBC -2028) ::: 
+08-03-2024 05:41 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 05:41 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 05:47 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 05:47 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 05:48 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 05:48 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 05:49 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 05:49 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 05:51 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 05:51 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+08-03-2024 05:53 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+08-03-2024 05:53 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+10-03-2024 08:58 a. m.	 >>> 	Nota de débito # ND123 :: '19' is not a valid value for property 'BaseType'. The valid values are: '-1' - '',  '0' - '',  '23' - 'Oferta de ventas',  '17' - 'Pedido de cliente',  '15' - 'Entrega',  '13' - 'Factura' ::: 
+10-03-2024 08:59 a. m.	 >>> 	NotaDeDebito:ND123 ** -2028: No existen registros coincidentes (ODBC -2028)
+10-03-2024 08:59 a. m.	 >>> 	Nota de débito # ND123 ::  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123No existen registros coincidentes (ODBC -2028) ::: 
+10-03-2024 09:00 a. m.	 >>> 	NotaDeDebito:ND123 ** -2028: No existen registros coincidentes (ODBC -2028)
+10-03-2024 09:02 a. m.	 >>> 	Nota de débito # ND123 ::  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123No existen registros coincidentes (ODBC -2028) ::: 
+10-03-2024 09:07 a. m.	 >>> 	NotaDeDebito:ND123 ** -10: Introduzca un valor válido en el campo "Almacén"  [الرسالة 0-0]
+10-03-2024 09:12 a. m.	 >>> 	Nota de débito # ND123 ::  ** -10: Introduzca un valor válido en el campo "Almacén"  [الرسالة 0-0] :: ND123Introduzca un valor válido en el campo "Almacén"  [الرسالة 0-0] ::: 
+10-03-2024 09:13 a. m.	 >>> 	NotaDeDebito:ND123 ** -5012: 10000417 - Transacción no ponderada
+10-03-2024 09:14 a. m.	 >>> 	Nota de débito # ND123 ::  ** -5012: 10000417 - Transacción no ponderada :: ND12310000417 - Transacción no ponderada ::: 
+10-03-2024 09:19 a. m.	 >>> 	NotaDeDebito:ND123 ** -5012: 10000417 - Transacción no ponderada
+10-03-2024 09:22 a. m.	 >>> 	Nota de débito # ND123 ::  ** -5012: 10000417 - Transacción no ponderada :: ND12310000417 - Transacción no ponderada ::: 
+10-03-2024 09:23 a. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+10-03-2024 09:35 a. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+10-03-2024 10:55 a. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto
+10-03-2024 10:57 a. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto ::: 
+10-03-2024 10:58 a. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto
+10-03-2024 11:01 a. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto ::: 
+10-03-2024 06:29 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Valor no válido  [INV1.ItemCode][line: 0]
+10-03-2024 06:29 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Valor no válido  [INV1.ItemCode][line: 0] :: ND123Valor no válido  [INV1.ItemCode][line: 0] ::: 
+10-03-2024 06:31 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+10-03-2024 06:32 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+10-03-2024 06:42 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+10-03-2024 06:44 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+10-03-2024 06:46 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+10-03-2024 06:48 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+10-03-2024 06:49 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+10-03-2024 06:56 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+10-03-2024 07:40 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+10-03-2024 07:42 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+10-03-2024 07:43 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+10-03-2024 07:46 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+10-03-2024 07:47 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+10-03-2024 07:47 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+10-03-2024 07:52 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+10-03-2024 07:53 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+10-03-2024 07:53 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+10-03-2024 07:54 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+10-03-2024 07:54 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+10-03-2024 07:55 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+10-03-2024 07:55 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+10-03-2024 08:05 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+10-03-2024 08:06 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+11-03-2024 09:07 a. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+11-03-2024 05:52 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+11-03-2024 06:04 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+11-03-2024 06:15 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+11-03-2024 06:15 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+11-03-2024 06:30 p. m.	 >>> 	NotaDeDebito:ND123 ** -2028: No existen registros coincidentes (ODBC -2028)
+11-03-2024 06:31 p. m.	 >>> 	Nota de débito # ND123 ::  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123No existen registros coincidentes (ODBC -2028) ::: 
+11-03-2024 06:31 p. m.	 >>> 	NotaDeDebito:ND123 ** -2028: No existen registros coincidentes (ODBC -2028)
+11-03-2024 06:33 p. m.	 >>> 	Nota de débito # ND123 ::  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123No existen registros coincidentes (ODBC -2028) ::: 
+11-03-2024 06:34 p. m.	 >>> 	NotaDeDebito:ND123 ** -2028: No existen registros coincidentes (ODBC -2028)
+11-03-2024 07:16 p. m.	 >>> 	Nota de débito # ND123 ::  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123No existen registros coincidentes (ODBC -2028) ::: 
+11-03-2024 07:16 p. m.	 >>> 	NotaDeDebito:ND123 ** -10: La cantidad definida hace que el inventario esté por debajo del mínimo. Ingrese un valor válido en "Cantidad"  [INV1.ItemCode][line: 1]
+11-03-2024 07:24 p. m.	 >>> 	Nota de débito # ND123 ::  ** -10: La cantidad definida hace que el inventario esté por debajo del mínimo. Ingrese un valor válido en "Cantidad"  [INV1.ItemCode][line: 1] :: ND123La cantidad definida hace que el inventario esté por debajo del mínimo. Ingrese un valor válido en "Cantidad"  [INV1.ItemCode][line: 1] ::: 
+11-03-2024 07:25 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto
+11-03-2024 07:26 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto ::: 
+11-03-2024 07:27 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+11-03-2024 07:32 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+11-03-2024 07:41 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+11-03-2024 07:52 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+11-03-2024 07:52 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto
+11-03-2024 07:56 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto ::: 
+11-03-2024 07:57 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '0909083974'
+11-03-2024 07:58 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '0909083974' :: ND123El SN seleccionado no es proveedor  [ORPC.CardCode] , '0909083974' ::: 
+11-03-2024 08:22 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+11-03-2024 08:22 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND12310000100 - El valor total del documento debe ser cero o superior a cero ::: 
+11-03-2024 08:25 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '0909083974'
+11-03-2024 08:25 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '0909083974' :: ND123El SN seleccionado no es proveedor  [ORPC.CardCode] , '0909083974' ::: 
+11-03-2024 08:25 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto
+11-03-2024 08:30 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto ::: 
+12-03-2024 12:38 p. m.	 >>> 	Invalid field name ::: 
+12-03-2024 01:00 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto
+12-03-2024 03:36 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: 681540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto ::: 
+12-03-2024 03:37 p. m.	 >>> 	NotaDeDebito:681 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+12-03-2024 03:37 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: 681Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 
+12-03-2024 03:38 p. m.	 >>> 	NotaDeDebito:681 ** -5002: Valor no válido  [INV1.ItemCode][line: 0]
+12-03-2024 03:39 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: Valor no válido  [INV1.ItemCode][line: 0] :: 681Valor no válido  [INV1.ItemCode][line: 0] ::: 
+12-03-2024 03:39 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 03:40 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 03:42 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 03:42 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 03:50 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 03:51 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 03:52 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 03:52 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 03:53 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 03:53 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 04:14 p. m.	 >>> 	NotaDeDebito:681 ** -2028: Ninguna coincidencia con documento base 
+12-03-2024 04:14 p. m.	 >>> 	Nota de débito # 681 ::  ** -2028: Ninguna coincidencia con documento base  :: 681Ninguna coincidencia con documento base  ::: 
+12-03-2024 04:15 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 04:15 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 04:19 p. m.	 >>> 	Nota de débito # 681 :: 'A' is not a valid value for property 'LineType'. The valid values are: 'R' - 'Regular' ::: 
+12-03-2024 04:22 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 04:22 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 04:26 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 04:26 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 04:34 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 04:34 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 04:35 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 04:36 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 04:37 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 04:37 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 04:51 p. m.	 >>> 	Nota de débito # 681 :: 'DM' is not a valid value for property 'DocumentSubType'. The valid values are: '--' - 'Factura de deudores',  'DN' - 'Nota de débito de clientes',  'IE' - 'Factura exenta de deudores',  'IB' - 'Boleta',  'EB' - 'Boleta exenta',  'IX' - 'Factura de exportación' ::: 
+12-03-2024 04:53 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 04:54 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 05:02 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+12-03-2024 05:03 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+12-03-2024 05:44 p. m.	 >>> 	NotaDeDebito:681 ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero
+13-03-2024 03:41 p. m.	 >>> 	Nota de débito # 681 ::  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 68110000100 - El valor total del documento debe ser cero o superior a cero ::: 
+25-03-2024 05:58 p. m.	 >>> 	The logged-on user does not have permission to use this object ::: 
+25-03-2024 06:03 p. m.	 >>> 	The logged-on user does not have permission to use this object ::: 
+26-03-2024 10:49 a. m.	 >>> 	The logged-on user does not have permission to use this object ::: 
+07-05-2024 05:09 p. m.	 >>> 	NotaDeDebito:ND123 ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión 
+07-05-2024 05:09 p. m.	 >>> 	Nota de débito # ND123 ::  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123Para generar este documento, primero defina la serie de numeración en el módulo Gestión  ::: 

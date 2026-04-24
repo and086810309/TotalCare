@@ -1,0 +1,242 @@
+07-03-2024 11:50 a. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 11:50 a. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 175
+07-03-2024 11:50 a. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 11:50 a. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 175
+07-03-2024 11:52 a. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 11:52 a. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 11:52 a. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 11:52 a. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 11:52 a. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 11:52 a. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 11:52 a. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 11:52 a. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 11:52 a. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 11:52 a. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 03:54 p. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 03:54 p. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 03:56 p. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 03:56 p. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 03:59 p. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 03:59 p. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 03:59 p. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 03:59 p. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 04:00 p. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 04:00 p. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+07-03-2024 04:15 p. m.	 >>> 	El valor no puede ser nulo.
+Nombre del parámetro: s
+07-03-2024 04:15 p. m.	 >>> 	   en System.IO.StringReader..ctor(String s)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Pedidos.StringToList(String XML) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 389
+   en WSMyDealerSAPv3.WSIntegracion.ingresarOrden(CabeceraOrden cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 136
+07-03-2024 04:16 p. m.	 >>> 	El valor no puede ser nulo.
+Nombre del parámetro: s
+07-03-2024 04:16 p. m.	 >>> 	   en System.IO.StringReader..ctor(String s)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Pedidos.StringToList(String XML) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 389
+   en WSMyDealerSAPv3.WSIntegracion.ingresarOrden(CabeceraOrden cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 136
+07-03-2024 04:16 p. m.	 >>> 	El valor no puede ser nulo.
+Nombre del parámetro: s
+07-03-2024 04:16 p. m.	 >>> 	   en System.IO.StringReader..ctor(String s)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Pedidos.StringToList(String XML) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 389
+   en WSMyDealerSAPv3.WSIntegracion.ingresarOrden(CabeceraOrden cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 136
+07-03-2024 04:18 p. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+07-03-2024 04:18 p. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en D:\UTIL\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 179
+12-03-2024 11:56 a. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+12-03-2024 11:56 a. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+12-03-2024 11:57 a. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+12-03-2024 11:57 a. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+12-03-2024 12:37 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+12-03-2024 12:37 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+12-03-2024 12:40 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+12-03-2024 12:40 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+12-03-2024 12:43 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+12-03-2024 12:43 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+12-03-2024 12:45 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+12-03-2024 12:45 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+12-03-2024 12:49 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+12-03-2024 12:49 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+12-03-2024 12:57 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+12-03-2024 12:57 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+26-03-2024 11:16 a. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+26-03-2024 11:16 a. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+26-03-2024 12:59 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+26-03-2024 12:59 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 199
+23-04-2024 12:43 p. m.	 >>> 	Los datos del nivel de raíz no son válidos. línea 2, posición 4.
+23-04-2024 12:43 p. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   en System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   en System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Pedidos.StringToList(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 291
+   en WSMyDealerSAPv3.WSIntegracion.ingresarOrden(CabeceraOrden cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 138
+01-05-2024 11:55 a. m.	 >>> 	Los datos del nivel de raíz no son válidos. línea 2, posición 4.
+01-05-2024 11:55 a. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   en System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   en System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Pedidos.StringToList(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 291
+   en WSMyDealerSAPv3.WSIntegracion.ingresarOrden(CabeceraOrden cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 138
+03-05-2024 05:42 p. m.	 >>> 	Los datos del nivel de raíz no son válidos. línea 2, posición 4.
+03-05-2024 05:42 p. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   en System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   en System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Pedidos.StringToList(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 293
+   en WSMyDealerSAPv3.WSIntegracion.ingresarOrden(CabeceraOrden cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 138
+06-05-2024 04:26 p. m.	 >>> 	Los datos del nivel de raíz no son válidos. línea 2, posición 4.
+06-05-2024 04:26 p. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   en System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   en System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Pedidos.StringToList(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 295
+   en WSMyDealerSAPv3.WSIntegracion.ingresarOrden(CabeceraOrden cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 138
+07-05-2024 11:59 a. m.	 >>> 	Los datos del nivel de raíz no son válidos. línea 2, posición 4.
+07-05-2024 11:59 a. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   en System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   en System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Pedidos.StringToList(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 296
+   en WSMyDealerSAPv3.WSIntegracion.ingresarOrden(CabeceraOrden cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 138
+07-05-2024 05:14 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+07-05-2024 05:14 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 201
+07-05-2024 05:16 p. m.	 >>> 	El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+07-05-2024 05:16 p. m.	 >>> 	   en System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   en System.Collections.Generic.List`1.get_Item(Int32 index)
+   en WSMyDealerSAPv3.Estandarizador.procesarRespuesta(List`1 salida) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\clases\Estandarizador.cs:línea 91
+   en WSMyDealerSAPv3.WSIntegracion.ingresarNotaDebito(CabeceraNotaDeDebito cabecera, String detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 201
+14-05-2024 05:38 p. m.	 >>> 	El valor no puede ser nulo.
+Nombre del parámetro: s
+14-05-2024 05:38 p. m.	 >>> 	   en System.IO.StringReader..ctor(String s)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Cobranza.StringToListSeccionDocumentos(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 832
+   en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 228
+16-05-2024 04:11 p. m.	 >>> 	Los datos del nivel de raíz no son válidos. línea 2, posición 5.
+16-05-2024 04:11 p. m.	 >>> 	El valor no puede ser nulo.
+Nombre del parámetro: s
+16-05-2024 04:11 p. m.	 >>> 	   en System.IO.StringReader..ctor(String s)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Cobranza.StringToListSeccionDocumentos(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 832
+   en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 228
+16-05-2024 04:11 p. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   en System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   en System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Cobranza.StringToListPago(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 861
+   en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 229
+16-05-2024 04:32 p. m.	 >>> 	Un nombre no puede empezar con el carácter '<', valor hexadecimal 0x3C. línea 1, posición 12.
+16-05-2024 04:32 p. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   en System.Xml.XmlTextReaderImpl.ParseQName(Boolean isQName, Int32 startOffset, Int32& colonPos)
+   en System.Xml.XmlTextReaderImpl.ParseElement()
+   en System.Xml.XmlTextReaderImpl.ParseElementContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   en System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Cobranza.StringToListPago(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 861
+   en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 229
+23-05-2024 04:39 p. m.	 >>> 	El valor no puede ser nulo.
+Nombre del parámetro: s
+23-05-2024 04:39 p. m.	 >>> 	   en System.IO.StringReader..ctor(String s)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Cobranza.StringToListSeccionDocumentos(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 849
+   en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 228
+28-05-2024 11:01 a. m.	 >>> 	Los datos del nivel de raíz no son válidos. línea 1, posición 1.
+28-05-2024 11:01 a. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   en System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   en System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Cobranza.StringToListSeccionDocumentos(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 849
+   en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 228
+21-06-2024 04:57 p. m.	 >>> 	La cadena de entrada no tiene el formato correcto.
+21-06-2024 04:57 p. m.	 >>> 	   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Xml.XmlConvert.ToInt32(String s)
+   en WSMyDealerSAPv3.Cobranza.StringToListPago(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 976
+   en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 229
+25-06-2024 05:31 p. m.	 >>> 	Los datos del nivel de raíz no son válidos. línea 1, posición 1.
+25-06-2024 05:31 p. m.	 >>> 	   en System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   en System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   en System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   en System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   en System.Xml.XmlTextReaderImpl.Read()
+   en System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   en System.Xml.XmlDocument.Load(XmlReader reader)
+   en System.Xml.XmlDocument.LoadXml(String xml)
+   en WSMyDealerSAPv3.Cobranza.StringToListSeccionDocumentos(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 907
+   en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 228

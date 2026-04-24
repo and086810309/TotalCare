@@ -1,0 +1,95 @@
+23-04-2024 12:39 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.existePedido(Int32 numPedido) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 42
+23-04-2024 12:39 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.existePedido(Int32 numPedido) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 42
+23-04-2024 12:40 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.existePedido(Int32 numPedido) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 42
+23-04-2024 12:42 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.existePedido(Int32 numPedido) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 42
+24-04-2024 12:36 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.existePedido(Int32 numPedido) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 42
+24-04-2024 12:40 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.existePedido(Int32 numPedido) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 42
+24-04-2024 12:40 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.existePedido(Int32 numPedido) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 42
+01-05-2024 12:12 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.obtenerPrimerValor(String query) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 100
+01-05-2024 12:14 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.obtenerPrimerValor(String query) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 100
+01-05-2024 12:38 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.obtenerPrimerValor(String query) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 100
+01-05-2024 12:39 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.obtenerPrimerValor(String query) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 100
+01-05-2024 12:45 p. m.	 >>> 	System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 209
+03-05-2024 05:26 p. m.	 >>> 	System.Exception:  ** -5002: Especifique una sucursal activa  [ORDR.BPLId] :: DIRECCION ENTREGA
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 242
+06-05-2024 04:34 p. m.	 >>> 	System.Exception:  ** -1106: Se ha producido un error interno (-1106) :: DIRECCION ENTREGA
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 244
+07-05-2024 11:58 a. m.	 >>> 	System.Exception:  ** -1106: Se ha producido un error interno (-1106) :: DIRECCION ENTREGA
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 245
+07-05-2024 03:40 p. m.	 >>> 	System.Exception:  ** -1106: Se ha producido un error interno (-1106) :: DIRECCION ENTREGA
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 245
+07-05-2024 04:12 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFF7F9): Illegal value entered
+   en SAPbobsCOM.FieldClass.set_Value(Object pVal)
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 209
+07-05-2024 04:14 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFF7F9): Illegal value entered
+   en SAPbobsCOM.FieldClass.set_Value(Object pVal)
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 209
+07-05-2024 04:14 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFF7F9): Illegal value entered
+   en SAPbobsCOM.FieldClass.set_Value(Object pVal)
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 209
+07-05-2024 05:09 p. m.	 >>> 	System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 215
+07-05-2024 05:20 p. m.	 >>> 	System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en WSMyDealerSAPv3.Pedidos.ingresarOrden(CabeceraOrden cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 215
+07-05-2024 05:25 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Pedidos.existePedido(Int32 numPedido) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Pedidos.cs:línea 42

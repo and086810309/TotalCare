@@ -1,0 +1,162 @@
+08-03-2024 12:43 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFFBAE): Invalid field name
+   en SAPbobsCOM.FieldsClass.Item(Object Index)
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 87
+08-03-2024 12:46 p. m.	 >>> 	System.Exception:  ** -2028: Código SN no permitido  [ORPC.CardCode] , 'C12345' :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 12:53 p. m.	 >>> 	System.Exception:  ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '051668920' :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 04:25 p. m.	 >>> 	System.Exception:  ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '051668920' :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 04:31 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 04:32 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 04:39 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:22 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:26 p. m.	 >>> 	System.Exception:  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:35 p. m.	 >>> 	System.Exception:  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:41 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:47 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:48 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:49 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:51 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+08-03-2024 05:53 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 116
+10-03-2024 08:58 a. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFFC14): '19' is not a valid value for property 'BaseType'. The valid values are: '-1' - '',  '0' - '',  '23' - 'Oferta de ventas',  '17' - 'Pedido de cliente',  '15' - 'Entrega',  '13' - 'Factura'
+   en SAPbobsCOM.Document_LinesClass.set_BaseType(Int32 pVal)
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 103
+10-03-2024 08:59 a. m.	 >>> 	System.Exception:  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 124
+10-03-2024 09:02 a. m.	 >>> 	System.Exception:  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 124
+10-03-2024 09:12 a. m.	 >>> 	System.Exception:  ** -10: Introduzca un valor válido en el campo "Almacén"  [الرسالة 0-0] :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 124
+10-03-2024 09:14 a. m.	 >>> 	System.Exception:  ** -5012: 10000417 - Transacción no ponderada :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 124
+10-03-2024 09:22 a. m.	 >>> 	System.Exception:  ** -5012: 10000417 - Transacción no ponderada :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 124
+10-03-2024 09:35 a. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 124
+10-03-2024 10:57 a. m.	 >>> 	System.Exception:  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 125
+10-03-2024 11:01 a. m.	 >>> 	System.Exception:  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 125
+10-03-2024 06:29 p. m.	 >>> 	System.Exception:  ** -5002: Valor no válido  [INV1.ItemCode][line: 0] :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 128
+10-03-2024 06:32 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 128
+10-03-2024 06:44 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 128
+10-03-2024 06:48 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 129
+10-03-2024 06:56 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 129
+10-03-2024 07:42 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+10-03-2024 07:46 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+10-03-2024 07:47 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+10-03-2024 07:53 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+10-03-2024 07:54 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+10-03-2024 07:55 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+10-03-2024 08:05 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+11-03-2024 09:07 a. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+11-03-2024 06:04 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 130
+11-03-2024 06:15 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 131
+11-03-2024 06:31 p. m.	 >>> 	System.Exception:  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 221
+11-03-2024 06:33 p. m.	 >>> 	System.Exception:  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 221
+11-03-2024 07:16 p. m.	 >>> 	System.Exception:  ** -2028: No existen registros coincidentes (ODBC -2028) :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 221
+11-03-2024 07:24 p. m.	 >>> 	System.Exception:  ** -10: La cantidad definida hace que el inventario esté por debajo del mínimo. Ingrese un valor válido en "Cantidad"  [INV1.ItemCode][line: 1] :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 221
+11-03-2024 07:26 p. m.	 >>> 	System.Exception:  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 221
+11-03-2024 07:32 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 221
+11-03-2024 07:52 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 222
+11-03-2024 07:56 p. m.	 >>> 	System.Exception:  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 222
+11-03-2024 07:58 p. m.	 >>> 	System.Exception:  ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '0909083974' :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 223
+11-03-2024 08:22 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoCliente(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 131
+11-03-2024 08:25 p. m.	 >>> 	System.Exception:  ** -5002: El SN seleccionado no es proveedor  [ORPC.CardCode] , '0909083974' :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 223
+11-03-2024 08:30 p. m.	 >>> 	System.Exception:  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 223
+12-03-2024 12:38 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFFBAE): Invalid field name
+   en SAPbobsCOM.FieldsClass.Item(Object Index)
+   en WSMyDealerSAPv3.NotasDebito.IngresarArticulo(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 298
+12-03-2024 03:36 p. m.	 >>> 	System.Exception:  ** -5002: 540000062 - La cuenta de mayor 40101010001-00-00 necesita una asignación de normas de reparto para la dimensión 1; complete los campos relacionados con normas de reparto :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 223
+12-03-2024 03:37 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 223
+12-03-2024 03:39 p. m.	 >>> 	System.Exception:  ** -5002: Valor no válido  [INV1.ItemCode][line: 0] :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 223
+12-03-2024 03:40 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 223
+12-03-2024 03:42 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 224
+12-03-2024 03:51 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 228
+12-03-2024 03:52 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 229
+12-03-2024 03:53 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 230
+12-03-2024 04:14 p. m.	 >>> 	System.Exception:  ** -2028: Ninguna coincidencia con documento base  :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 234
+12-03-2024 04:15 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 234
+12-03-2024 04:19 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFFC14): 'A' is not a valid value for property 'LineType'. The valid values are: 'R' - 'Regular'
+   en SAPbobsCOM.Document_LinesClass.set_LineType(BoDocLineType penumRsltVal)
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 223
+12-03-2024 04:22 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 234
+12-03-2024 04:26 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 235
+12-03-2024 04:34 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 238
+12-03-2024 04:36 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 239
+12-03-2024 04:37 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 239
+12-03-2024 04:51 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFFC14): 'DM' is not a valid value for property 'DocumentSubType'. The valid values are: '--' - 'Factura de deudores',  'DN' - 'Nota de débito de clientes',  'IE' - 'Factura exenta de deudores',  'IB' - 'Boleta',  'EB' - 'Boleta exenta',  'IX' - 'Factura de exportación'
+   en SAPbobsCOM.IDocuments.set_DocumentSubType(BoDocumentSubType pVal)
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 203
+12-03-2024 04:54 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 241
+12-03-2024 05:03 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 242
+13-03-2024 03:41 p. m.	 >>> 	System.Exception:  ** -5002: 10000100 - El valor total del documento debe ser cero o superior a cero :: 681
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\Users\desarrollo\Desktop\ETECH\WSMyDealerSAPv3\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 242
+25-03-2024 05:58 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFF448): The logged-on user does not have permission to use this object
+   en SAPbobsCOM.CompanyClass.GetBusinessObject(BoObjectTypes Object)
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteTest(CabeceraNotaDeDebito cabecera, List`1 detalles) en D:\Etecnology\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 194
+25-03-2024 06:03 p. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFF448): The logged-on user does not have permission to use this object
+   en SAPbobsCOM.CompanyClass.GetBusinessObject(BoObjectTypes Object)
+   en WSMyDealerSAPv3.NotasDebito.IngresarArticulo(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 414
+26-03-2024 10:49 a. m.	 >>> 	System.Runtime.InteropServices.COMException (0xFFFFF448): The logged-on user does not have permission to use this object
+   en SAPbobsCOM.CompanyClass.GetBusinessObject(BoObjectTypes Object)
+   en WSMyDealerSAPv3.NotasDebito.IngresarArticulo(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 414
+07-05-2024 05:09 p. m.	 >>> 	System.Exception:  ** -5002: Para generar este documento, primero defina la serie de numeración en el módulo Gestión  :: ND123
+   en WSMyDealerSAPv3.NotasDebito.IngresarNotaDeDebitoClienteSimple(CabeceraNotaDeDebito cabecera, List`1 detalles) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\NotasDebito.cs:línea 344

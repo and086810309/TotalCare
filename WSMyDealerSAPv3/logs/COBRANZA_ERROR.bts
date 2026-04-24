@@ -1,0 +1,8 @@
+24-06-2024 12:02 p. m.	 >>> 	ExecuteReader requiere una Connection abierta y disponible. El estado actual de la conexión es cerrada.
+24-06-2024 12:02 p. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.SetStateExecuting(String method, OdbcTransaction transaction)
+   en System.Data.Odbc.OdbcCommand.ValidateConnectionAndTransaction(String method)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Cobranza.existeCobranzaPago(String numCobranza) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 106

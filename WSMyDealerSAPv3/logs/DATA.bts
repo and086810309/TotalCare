@@ -1,0 +1,19 @@
+07-03-2024 04:20 p. m.	 >>> 	ERROR [IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado
+25-03-2024 05:58 p. m.	 >>> 	ERROR [HY000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;-10719 Connect failed (invalid SERVERNODE 'NDB@192.168.0.32:30013')
+ERROR [HY000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;-10719 Connect failed (invalid SERVERNODE 'NDB@192.168.0.32:30013')
+25-03-2024 06:03 p. m.	 >>> 	ERROR [HY000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;-10719 Connect failed (invalid SERVERNODE 'NDB@192.168.0.32:30013')
+ERROR [HY000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;-10719 Connect failed (invalid SERVERNODE 'NDB@192.168.0.32:30013')
+25-03-2024 06:04 p. m.	 >>> 	ERROR [HY000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;-10719 Connect failed (invalid SERVERNODE 'NDB@192.168.0.32:30013')
+ERROR [HY000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;-10719 Connect failed (invalid SERVERNODE 'NDB@192.168.0.32:30013')
+26-03-2024 10:48 a. m.	 >>> 	ERROR [HY000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;-10719 Connect failed (invalid SERVERNODE 'NDB@192.168.0.32:30013')
+ERROR [HY000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;-10719 Connect failed (invalid SERVERNODE 'NDB@192.168.0.32:30013')
+26-03-2024 11:13 a. m.	 >>> 	ERROR [IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado
+26-03-2024 11:14 a. m.	 >>> 	ERROR [IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado
+26-03-2024 11:15 a. m.	 >>> 	ERROR [IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado
+26-03-2024 11:31 a. m.	 >>> 	ERROR [IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado
+26-03-2024 12:57 p. m.	 >>> 	ERROR [IM014] [Microsoft][Administrador de controladores ODBC] La arquitectura del DSN especificado no coincide entre el controlador y la aplicación.
+26-03-2024 04:41 p. m.	 >>> 	ERROR [IM014] [Microsoft][Administrador de controladores ODBC] La arquitectura del DSN especificado no coincide entre el controlador y la aplicación.
+19-04-2024 10:23 a. m.	 >>> 	ERROR [IM014] [Microsoft][Administrador de controladores ODBC] La arquitectura del DSN especificado no coincide entre el controlador y la aplicación.
+23-04-2024 12:37 p. m.	 >>> 	ERROR [IM014] [Microsoft][Administrador de controladores ODBC] La arquitectura del DSN especificado no coincide entre el controlador y la aplicación.
+24-06-2024 12:02 p. m.	 >>> 	ERROR [IM014] [Microsoft][Administrador de controladores ODBC] La arquitectura del DSN especificado no coincide entre el controlador y la aplicación.
+24-06-2024 12:02 p. m.	 >>> 	ERROR [IM014] [Microsoft][Administrador de controladores ODBC] La arquitectura del DSN especificado no coincide entre el controlador y la aplicación.

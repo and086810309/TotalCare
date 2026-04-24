@@ -1,0 +1,599 @@
+13-05-2024 04:31 p. m.	 >>> 	INI:
+13-05-2024 04:31 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+13-05-2024 04:31 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+13-05-2024 04:32 p. m.	 >>> 	conexion:
+13-05-2024 04:32 p. m.	 >>> 	inicio:
+13-05-2024 04:32 p. m.	 >>> 	tipopago:EFE
+13-05-2024 04:56 p. m.	 >>> 	INI:
+13-05-2024 04:56 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+13-05-2024 04:56 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+13-05-2024 04:56 p. m.	 >>> 	conexion:
+13-05-2024 04:56 p. m.	 >>> 	inicio:
+13-05-2024 04:56 p. m.	 >>> 	tipopago:EFE
+13-05-2024 04:59 p. m.	 >>> 	conexion:
+13-05-2024 04:59 p. m.	 >>> 	inicio:
+13-05-2024 04:59 p. m.	 >>> 	tipopago:EFE
+13-05-2024 05:01 p. m.	 >>> 	INI:
+13-05-2024 05:01 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+13-05-2024 05:01 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+13-05-2024 05:01 p. m.	 >>> 	conexion:
+13-05-2024 05:01 p. m.	 >>> 	inicio:
+13-05-2024 05:01 p. m.	 >>> 	tipopago:EFE
+13-05-2024 05:02 p. m.	 >>> 	documento:10/12 aplicado 6 SaldoValor:0 Anticipo0
+13-05-2024 05:02 p. m.	 >>> 	anticipo:6 44
+13-05-2024 05:02 p. m.	 >>> 	ReciboWeb:16- PK:16-EFE-34 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden Pista11 -> Pista11a
+13-05-2024 05:38 p. m.	 >>> 	INI:
+13-05-2024 05:38 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+13-05-2024 05:38 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+13-05-2024 05:38 p. m.	 >>> 	conexion:
+13-05-2024 05:38 p. m.	 >>> 	inicio:
+13-05-2024 05:39 p. m.	 >>> 	tipopago:EFE
+13-05-2024 05:48 p. m.	 >>> 	documento:10/12 aplicado 6 SaldoValor:0 Anticipo0
+13-05-2024 05:48 p. m.	 >>> 	anticipo:6 44
+13-05-2024 05:48 p. m.	 >>> 	ReciboWeb:16- PK:16-EFE-34 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden Pista11 -> Pista11a
+13-05-2024 05:54 p. m.	 >>> 	INI:
+13-05-2024 05:54 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+13-05-2024 05:54 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+13-05-2024 05:54 p. m.	 >>> 	conexion:
+13-05-2024 05:54 p. m.	 >>> 	inicio:
+13-05-2024 05:54 p. m.	 >>> 	tipopago:EFE
+13-05-2024 05:54 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:3 Anticipo0
+13-05-2024 05:55 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -10: No se ha definido cuenta para pagos en efectivo Pista11 -> Pista11a
+14-05-2024 04:10 p. m.	 >>> 	INI:
+14-05-2024 04:10 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+14-05-2024 04:10 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+14-05-2024 04:10 p. m.	 >>> 	conexion:
+14-05-2024 04:10 p. m.	 >>> 	inicio:
+14-05-2024 04:10 p. m.	 >>> 	tipopago:EFE
+14-05-2024 04:10 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:3 Anticipo0
+14-05-2024 04:10 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -5002: Especifique una sucursal activa Pista11 -> Pista11a
+14-05-2024 04:15 p. m.	 >>> 	INI:
+14-05-2024 04:15 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+14-05-2024 04:15 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+14-05-2024 04:15 p. m.	 >>> 	conexion:
+14-05-2024 04:15 p. m.	 >>> 	inicio:
+14-05-2024 04:15 p. m.	 >>> 	tipopago:EFE
+14-05-2024 04:15 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:3 Anticipo0
+14-05-2024 04:15 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -5002: No es posible ejecución de transacción en cuenta del tipo título  [JDT1.Account][line: 1] , '1010101000'  [Mensaje 173-54]Pista11 -> Pista11a
+14-05-2024 04:25 p. m.	 >>> 	conexion:
+14-05-2024 04:25 p. m.	 >>> 	inicio:
+14-05-2024 04:26 p. m.	 >>> 	tipopago:EFE
+14-05-2024 04:26 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:0 Anticipo0
+14-05-2024 04:26 p. m.	 >>> 	tipopago:CHE
+14-05-2024 04:27 p. m.	 >>> 	anticipo:0 3
+14-05-2024 04:27 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -10: Número de documento no permitido  [RCT2.DocEntry][line: 1]Pista11 -> Pista11a
+14-05-2024 04:31 p. m.	 >>> 	INI:
+14-05-2024 04:31 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+14-05-2024 04:31 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+14-05-2024 04:31 p. m.	 >>> 	conexion:
+14-05-2024 04:31 p. m.	 >>> 	inicio:
+14-05-2024 04:31 p. m.	 >>> 	tipopago:EFE
+14-05-2024 04:31 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:3 Anticipo0
+14-05-2024 04:31 p. m.	 >>> 	tipopago:CHE
+14-05-2024 05:30 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:0 Anticipo0
+14-05-2024 05:31 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+14-05-2024 05:31 p. m.	 >>> 	conexion:
+14-05-2024 05:31 p. m.	 >>> 	inicio:
+14-05-2024 05:31 p. m.	 >>> 	tipopago:EFE
+14-05-2024 05:32 p. m.	 >>> 	anticipo:0 3
+14-05-2024 05:32 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -10: Número de documento no permitido  [RCT2.DocEntry][line: 1]Pista11 -> Pista11a
+14-05-2024 05:33 p. m.	 >>> 	conexion:
+14-05-2024 05:33 p. m.	 >>> 	inicio:
+14-05-2024 05:33 p. m.	 >>> 	tipopago:EFE
+14-05-2024 05:35 p. m.	 >>> 	anticipo:0 3
+14-05-2024 05:35 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -10: Número de documento no permitido  [RCT2.DocEntry][line: 1]Pista11 -> Pista11a
+14-05-2024 05:38 p. m.	 >>> 	INI:
+14-05-2024 05:38 p. m.	 >>> 	DOCS:
+14-05-2024 05:38 p. m.	 >>> 	PAGOS:
+				pagos
+		 
+14-05-2024 05:39 p. m.	 >>> 	INI:
+14-05-2024 05:39 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+14-05-2024 05:39 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque></CuentaCheque><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra></CuentaLetra><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+14-05-2024 05:39 p. m.	 >>> 	conexion:
+14-05-2024 05:39 p. m.	 >>> 	inicio:
+14-05-2024 05:39 p. m.	 >>> 	tipopago:EFE
+14-05-2024 05:40 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:3 Anticipo0
+14-05-2024 05:40 p. m.	 >>> 	tipopago:CHE
+14-05-2024 05:59 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:0 Anticipo0
+14-05-2024 05:59 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+15-05-2024 11:37 a. m.	 >>> 	INI:
+15-05-2024 11:37 a. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+15-05-2024 11:37 a. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+15-05-2024 11:37 a. m.	 >>> 	conexion:
+15-05-2024 11:37 a. m.	 >>> 	inicio:
+15-05-2024 11:37 a. m.	 >>> 	tipopago:EFE
+15-05-2024 11:38 a. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:3 Anticipo0
+15-05-2024 11:38 a. m.	 >>> 	tipopago:CHE
+15-05-2024 11:39 a. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:0 Anticipo0
+15-05-2024 11:39 a. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+15-05-2024 04:24 p. m.	 >>> 	INI:
+15-05-2024 04:24 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>10</NumeroDocumento><NumeroCuota>12</NumeroCuota><NumeroCuotaSAP>12</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+15-05-2024 04:24 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-04-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+15-05-2024 04:24 p. m.	 >>> 	conexion:
+15-05-2024 04:25 p. m.	 >>> 	inicio:
+15-05-2024 04:25 p. m.	 >>> 	tipopago:EFE
+15-05-2024 04:25 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:3 Anticipo0
+15-05-2024 04:25 p. m.	 >>> 	tipopago:CHE
+15-05-2024 04:30 p. m.	 >>> 	documento:10/12 aplicado 3 SaldoValor:0 Anticipo0
+15-05-2024 04:37 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+16-05-2024 04:11 p. m.	 >>> 	INI:
+16-05-2024 04:11 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 04:11 p. m.	 >>> 	PAGOS:
+				pagos
+		 
+16-05-2024 04:11 p. m.	 >>> 	INI:
+16-05-2024 04:11 p. m.	 >>> 	DOCS:
+16-05-2024 04:11 p. m.	 >>> 	PAGOS:
+				pagos
+		 
+16-05-2024 04:12 p. m.	 >>> 	INI:
+16-05-2024 04:12 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 04:12 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>3</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 04:12 p. m.	 >>> 	conexion:
+16-05-2024 04:12 p. m.	 >>> 	inicio:
+16-05-2024 04:12 p. m.	 >>> 	tipopago:EFE
+16-05-2024 04:12 p. m.	 >>> 	documento:53/1 aplicado 3 SaldoValor:3 Anticipo0
+16-05-2024 04:13 p. m.	 >>> 	tipopago:CHE
+16-05-2024 04:14 p. m.	 >>> 	documento:53/1 aplicado 3 SaldoValor:0 Anticipo0
+16-05-2024 04:14 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+16-05-2024 04:23 p. m.	 >>> 	INI:
+16-05-2024 04:23 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 04:23 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>EFE</TipoPago><PagosConCheques/><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 04:23 p. m.	 >>> 	conexion:
+16-05-2024 04:23 p. m.	 >>> 	inicio:
+16-05-2024 04:23 p. m.	 >>> 	tipopago:EFE
+16-05-2024 04:24 p. m.	 >>> 	documento:53/1 aplicado 3 SaldoValor:3 Anticipo0
+16-05-2024 04:32 p. m.	 >>> 	INI:
+16-05-2024 04:32 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 04:32 p. m.	 >>> 	PAGOS:<ListPago><<Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 04:33 p. m.	 >>> 	INI:
+16-05-2024 04:33 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 04:33 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 04:33 p. m.	 >>> 	conexion:
+16-05-2024 04:33 p. m.	 >>> 	inicio:
+16-05-2024 04:33 p. m.	 >>> 	tipopago:CHE
+16-05-2024 04:34 p. m.	 >>> 	documento:53/1 aplicado 3 SaldoValor:3 Anticipo3
+16-05-2024 04:34 p. m.	 >>> 	anticipo:3 3
+16-05-2024 04:34 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+16-05-2024 05:04 p. m.	 >>> 	INI:
+16-05-2024 05:04 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 05:04 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>30</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 05:06 p. m.	 >>> 	conexion:
+16-05-2024 05:06 p. m.	 >>> 	inicio:
+16-05-2024 05:06 p. m.	 >>> 	tipopago:CHE
+16-05-2024 05:06 p. m.	 >>> 	documento:53/1 aplicado 3 SaldoValor:3 Anticipo3
+16-05-2024 05:06 p. m.	 >>> 	anticipo:3 3
+16-05-2024 05:07 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+16-05-2024 05:32 p. m.	 >>> 	INI:
+16-05-2024 05:32 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 05:32 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>30</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 05:32 p. m.	 >>> 	conexion:
+16-05-2024 05:32 p. m.	 >>> 	inicio:
+16-05-2024 05:32 p. m.	 >>> 	tipopago:CHE
+16-05-2024 05:32 p. m.	 >>> 	documento:53/1 aplicado 3 SaldoValor:3 Anticipo3
+16-05-2024 05:32 p. m.	 >>> 	anticipo:3 3
+16-05-2024 05:32 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden Pista11 -> Pista11a
+16-05-2024 05:36 p. m.	 >>> 	INI:
+16-05-2024 05:36 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>56</NumeroDocumento><NumeroCuota>2</NumeroCuota><NumeroCuotaSAP>2</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 05:36 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-25</FechaVencimiento><NumeroCheques>125637</NumeroCheques><CodigoBanco>30</CodigoBanco><NumeroCuentaBancaria>14639967</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 05:36 p. m.	 >>> 	conexion:
+16-05-2024 05:36 p. m.	 >>> 	inicio:
+16-05-2024 05:36 p. m.	 >>> 	tipopago:CHE
+16-05-2024 05:36 p. m.	 >>> 	documento:56/2 aplicado 2 SaldoValor:4 Anticipo4
+16-05-2024 05:36 p. m.	 >>> 	anticipo:2 4
+16-05-2024 05:37 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -10: NO se ha seleccionado ninguna cuenta de LM p.efecto en los datos maestros de SN  [ORCT.BoeAcc]Pista11 -> Pista11a
+16-05-2024 05:46 p. m.	 >>> 	INI:
+16-05-2024 05:46 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>56</NumeroDocumento><NumeroCuota>2</NumeroCuota><NumeroCuotaSAP>2</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 05:46 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-25</FechaVencimiento><NumeroCheques>125637</NumeroCheques><CodigoBanco>30</CodigoBanco><NumeroCuentaBancaria>14639967</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 05:46 p. m.	 >>> 	conexion:
+16-05-2024 05:47 p. m.	 >>> 	inicio:
+16-05-2024 05:47 p. m.	 >>> 	tipopago:CHE
+16-05-2024 05:47 p. m.	 >>> 	documento:56/2 aplicado 2 SaldoValor:4 Anticipo4
+16-05-2024 05:47 p. m.	 >>> 	anticipo:2 4
+16-05-2024 05:47 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -10: NO se ha seleccionado ninguna cuenta de LM p.efecto en los datos maestros de SN  [ORCT.BoeAcc]Pista11 -> Pista11a
+16-05-2024 05:50 p. m.	 >>> 	INI:
+16-05-2024 05:50 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+16-05-2024 05:50 p. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-25</FechaVencimiento><NumeroCheques>125636</NumeroCheques><CodigoBanco>30</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+16-05-2024 05:50 p. m.	 >>> 	conexion:
+16-05-2024 05:50 p. m.	 >>> 	inicio:
+16-05-2024 05:50 p. m.	 >>> 	tipopago:CHE
+16-05-2024 05:50 p. m.	 >>> 	documento:53/1 aplicado 3 SaldoValor:3 Anticipo3
+16-05-2024 05:50 p. m.	 >>> 	anticipo:3 3
+16-05-2024 05:51 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+17-05-2024 09:56 a. m.	 >>> 	conexion:
+17-05-2024 10:12 a. m.	 >>> 	conexion:
+17-05-2024 10:12 a. m.	 >>> 	conexion:
+17-05-2024 10:12 a. m.	 >>> 	inicio:
+17-05-2024 10:19 a. m.	 >>> 	INI:
+17-05-2024 10:19 a. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+17-05-2024 10:19 a. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-12</FechaVencimiento><NumeroCheques>125638</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+17-05-2024 10:20 a. m.	 >>> 	conexion:
+17-05-2024 10:20 a. m.	 >>> 	inicio:
+17-05-2024 10:20 a. m.	 >>> 	tipopago:CHE
+17-05-2024 10:28 a. m.	 >>> 	documento:53/1 aplicado 6 SaldoValor:0 Anticipo0
+17-05-2024 10:31 a. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+17-05-2024 10:37 a. m.	 >>> 	INI:
+17-05-2024 10:37 a. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+17-05-2024 10:37 a. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-12</FechaVencimiento><NumeroCheques>125638</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+17-05-2024 10:37 a. m.	 >>> 	conexion:
+17-05-2024 10:37 a. m.	 >>> 	inicio:
+17-05-2024 10:37 a. m.	 >>> 	tipopago:CHE
+17-05-2024 10:38 a. m.	 >>> 	documento:53/1 aplicado 6 SaldoValor:0 Anticipo0
+17-05-2024 10:38 a. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+17-05-2024 10:47 a. m.	 >>> 	INI:
+17-05-2024 10:47 a. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>6</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+17-05-2024 10:47 a. m.	 >>> 	PAGOS:<ListPago><Pago><TipoPago>CHE</TipoPago><PagosConCheques><FechaVencimiento>2024-06-12</FechaVencimiento><NumeroCheques>125638</NumeroCheques><CodigoBanco>17</CodigoBanco><NumeroCuentaBancaria>14639966</NumeroCuentaBancaria><SumaValorCheques>6</SumaValorCheques><CodigoPais>EC</CodigoPais><CuentaCheque/><NumeroAutorizacion></NumeroAutorizacion><RetencionesAsociadas></RetencionesAsociadas><MetodoPago>CHQPOST</MetodoPago><CuentaLetra/><IdFP>20-CHE-38</IdFP></PagosConCheques><PagosConLetras/><PagosConTarjeta/></Pago></ListPago>
+17-05-2024 10:47 a. m.	 >>> 	conexion:
+17-05-2024 10:47 a. m.	 >>> 	inicio:
+17-05-2024 10:47 a. m.	 >>> 	tipopago:CHE
+17-05-2024 10:47 a. m.	 >>> 	documento:53/1 aplicado 6 SaldoValor:0 Anticipo0
+22-05-2024 04:45 p. m.	 >>> 	INI:
+22-05-2024 04:45 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+22-05-2024 04:45 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+22-05-2024 04:45 p. m.	 >>> 	conexion:
+22-05-2024 04:45 p. m.	 >>> 	inicio:
+22-05-2024 04:45 p. m.	 >>> 	tipopago:RET
+22-05-2024 04:46 p. m.	 >>> 	conexion:
+22-05-2024 04:46 p. m.	 >>> 	inicio:
+22-05-2024 04:46 p. m.	 >>> 	tipopago:RET
+22-05-2024 04:54 p. m.	 >>> 	INI:
+22-05-2024 04:54 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+22-05-2024 04:54 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+22-05-2024 04:54 p. m.	 >>> 	conexion:
+22-05-2024 04:54 p. m.	 >>> 	inicio:
+22-05-2024 04:54 p. m.	 >>> 	tipopago:RET
+22-05-2024 04:54 p. m.	 >>> 	tipopago:RET
+22-05-2024 04:55 p. m.	 >>> 	tipopago:RET
+22-05-2024 04:55 p. m.	 >>> 	tipopago:RET
+22-05-2024 04:56 p. m.	 >>> 	tipopago:RET
+22-05-2024 04:56 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:00 p. m.	 >>> 	INI:
+22-05-2024 05:00 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+22-05-2024 05:00 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+22-05-2024 05:00 p. m.	 >>> 	conexion:
+22-05-2024 05:00 p. m.	 >>> 	inicio:
+22-05-2024 05:00 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:00 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:00 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:00 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:00 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:00 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:17 p. m.	 >>> 	INI:
+22-05-2024 05:17 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+22-05-2024 05:17 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+22-05-2024 05:17 p. m.	 >>> 	conexion:
+22-05-2024 05:17 p. m.	 >>> 	inicio:
+22-05-2024 05:17 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:17 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:17 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:17 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:17 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:17 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:20 p. m.	 >>> 	conexion:
+22-05-2024 05:20 p. m.	 >>> 	inicio:
+22-05-2024 05:20 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:20 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:20 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:20 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:20 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:20 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:29 p. m.	 >>> 	INI:
+22-05-2024 05:29 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+22-05-2024 05:29 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada></FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+22-05-2024 05:29 p. m.	 >>> 	conexion:
+22-05-2024 05:29 p. m.	 >>> 	inicio:
+22-05-2024 05:29 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:29 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:29 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:29 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:29 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:29 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:45 p. m.	 >>> 	INI:
+22-05-2024 05:45 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+22-05-2024 05:45 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+22-05-2024 05:45 p. m.	 >>> 	conexion:
+22-05-2024 05:45 p. m.	 >>> 	inicio:
+22-05-2024 05:45 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:45 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "DocEntry"='53' and "codcuota"='1' and "tipo_doc"='FAC'
+22-05-2024 05:47 p. m.	 >>> 	conexion:
+22-05-2024 05:47 p. m.	 >>> 	inicio:
+22-05-2024 05:47 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:47 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "DocEntry"='53' and "codcuota"='1' and "tipo_doc"='FAC'
+22-05-2024 05:49 p. m.	 >>> 	INI:
+22-05-2024 05:49 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>53</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+22-05-2024 05:49 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+22-05-2024 05:49 p. m.	 >>> 	conexion:
+22-05-2024 05:49 p. m.	 >>> 	inicio:
+22-05-2024 05:49 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:49 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='53' and "codcuota"='1' and "tipo_doc"='FAC'
+22-05-2024 05:49 p. m.	 >>> 	ELSe existedocumento = false
+22-05-2024 05:51 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:51 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:51 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:51 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:51 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:56 p. m.	 >>> 	INI:
+22-05-2024 05:56 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>54</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+22-05-2024 05:56 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010501004</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+22-05-2024 05:56 p. m.	 >>> 	conexion:
+22-05-2024 05:56 p. m.	 >>> 	inicio:
+22-05-2024 05:56 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:56 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='54' and "codcuota"='1' and "tipo_doc"='FAC'
+22-05-2024 05:56 p. m.	 >>> 	existedocumento = true
+22-05-2024 05:56 p. m.	 >>> 	documento:54/1 SaldoValor:0 Aplicado:3,18
+22-05-2024 05:56 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:56 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:56 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:56 p. m.	 >>> 	tipopago:RET
+22-05-2024 05:56 p. m.	 >>> 	tipopago:RET
+23-05-2024 04:37 p. m.	 >>> 	INI:
+23-05-2024 04:37 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>54</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+23-05-2024 04:37 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+23-05-2024 04:37 p. m.	 >>> 	conexion:
+23-05-2024 04:39 p. m.	 >>> 	INI:
+23-05-2024 04:39 p. m.	 >>> 	DOCS:
+23-05-2024 04:39 p. m.	 >>> 	PAGOS:
+				pagos
+		 
+23-05-2024 04:39 p. m.	 >>> 	INI:
+23-05-2024 04:39 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>54</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+23-05-2024 04:39 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>312</CodRetencion><CuentaContable>1010501003</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>721</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>723</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>725</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>727</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>729</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+23-05-2024 04:39 p. m.	 >>> 	conexion:
+23-05-2024 05:13 p. m.	 >>> 	INI:
+23-05-2024 05:13 p. m.	 >>> 	DOCS:<ListSeccionDocumentos><SeccionDocumentos><TipoDocumento>FAC</TipoDocumento><NumeroDocumento>54</NumeroDocumento><NumeroCuota>1</NumeroCuota><NumeroCuotaSAP>1</NumeroCuotaSAP><Valor>518.74</Valor><NumeroRetencion/><MontoRetencion>0</MontoRetencion></SeccionDocumentos></ListSeccionDocumentos>
+23-05-2024 05:13 p. m.	 >>> 	PAGOS:<ListPago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>8</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>19.2200</BaseImponible><ImporteVencido>33.64</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-1</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>8</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>23.10</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-2</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>8</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>46.20</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-3</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>8</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>69.30</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-4</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>8</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>115.50</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-5</IdFP></PagosConTarjeta></Pago><Pago><PagosConTarjeta><TipoPago>RET</TipoPago><CodRetencion>8</CodRetencion><CuentaContable>1010101002</CuentaContable><NumeroTarjeta>9999</NumeroTarjeta><FechaVencAut>2024-05-01</FechaVencAut><NumeroAutorizacion>99999</NumeroAutorizacion><TipoRetencion>1</TipoRetencion><BaseImponible>2.3100</BaseImponible><ImporteVencido>231.00</ImporteVencido><SerieRetencion>99999</SerieRetencion><FacturaRelacionada>51</FacturaRelacionada><CatnidadPagos>1</CatnidadPagos><FechaEmision>2024-05-21</FechaEmision><IdFP>30-RET-6</IdFP></PagosConTarjeta></Pago></ListPago>
+23-05-2024 05:13 p. m.	 >>> 	conexion:
+23-05-2024 05:13 p. m.	 >>> 	inicio:
+23-05-2024 05:13 p. m.	 >>> 	tipopago:RET
+23-05-2024 05:14 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='54' and "codcuota"='1' and "tipo_doc"='FAC'
+23-05-2024 05:14 p. m.	 >>> 	existedocumento = true
+23-05-2024 05:14 p. m.	 >>> 	documento:54/1 SaldoValor:0 Aplicado:3,18
+23-05-2024 05:14 p. m.	 >>> 	tipopago:RET
+23-05-2024 05:14 p. m.	 >>> 	tipopago:RET
+23-05-2024 05:14 p. m.	 >>> 	tipopago:RET
+23-05-2024 05:14 p. m.	 >>> 	tipopago:RET
+23-05-2024 05:14 p. m.	 >>> 	tipopago:RET
+28-05-2024 10:58 a. m.	 >>> 	INI:
+28-05-2024 10:58 a. m.	 >>> 	conexion:
+28-05-2024 10:58 a. m.	 >>> 	inicio:
+28-05-2024 10:58 a. m.	 >>> 	tipopago:CHE
+28-05-2024 10:59 a. m.	 >>> 	documento:55/1 aplicado 6 SaldoValor:0 Anticipo0
+28-05-2024 10:59 a. m.	 >>> 	ReciboWeb:30- PK:20-CHE-55 ** -10: El período de serie no coincide con el período actual  [ORCT.Series]Pista11 -> Pista11a
+28-05-2024 11:01 a. m.	 >>> 	INI:
+28-05-2024 11:02 a. m.	 >>> 	INI:
+28-05-2024 11:02 a. m.	 >>> 	conexion:
+28-05-2024 11:02 a. m.	 >>> 	inicio:
+28-05-2024 11:02 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:02 a. m.	 >>> 	documento:55/1 aplicado 6 SaldoValor:0 Anticipo0
+28-05-2024 11:02 a. m.	 >>> 	ReciboWeb:30- PK:20-CHE-55 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+28-05-2024 11:23 a. m.	 >>> 	INI:
+28-05-2024 11:23 a. m.	 >>> 	conexion:
+28-05-2024 11:23 a. m.	 >>> 	inicio:
+28-05-2024 11:23 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:24 a. m.	 >>> 	INI:
+28-05-2024 11:24 a. m.	 >>> 	conexion:
+28-05-2024 11:24 a. m.	 >>> 	inicio:
+28-05-2024 11:24 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:27 a. m.	 >>> 	INI:
+28-05-2024 11:27 a. m.	 >>> 	conexion:
+28-05-2024 11:27 a. m.	 >>> 	inicio:
+28-05-2024 11:27 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:30 a. m.	 >>> 	INI:
+28-05-2024 11:30 a. m.	 >>> 	conexion:
+28-05-2024 11:30 a. m.	 >>> 	inicio:
+28-05-2024 11:30 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:36 a. m.	 >>> 	INI:
+28-05-2024 11:36 a. m.	 >>> 	conexion:
+28-05-2024 11:36 a. m.	 >>> 	inicio:
+28-05-2024 11:36 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:36 a. m.	 >>> 	documento:55/1 aplicado 6 SaldoValor:0 Anticipo0
+28-05-2024 11:36 a. m.	 >>> 	anticipo:6 17
+28-05-2024 11:39 a. m.	 >>> 	INI:
+28-05-2024 11:39 a. m.	 >>> 	conexion:
+28-05-2024 11:39 a. m.	 >>> 	inicio:
+28-05-2024 11:39 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:44 a. m.	 >>> 	INI:
+28-05-2024 11:44 a. m.	 >>> 	conexion:
+28-05-2024 11:44 a. m.	 >>> 	inicio:
+28-05-2024 11:44 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:51 a. m.	 >>> 	INI:
+28-05-2024 11:51 a. m.	 >>> 	conexion:
+28-05-2024 11:51 a. m.	 >>> 	inicio:
+28-05-2024 11:51 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:55 a. m.	 >>> 	INI:
+28-05-2024 11:55 a. m.	 >>> 	conexion:
+28-05-2024 11:55 a. m.	 >>> 	inicio:
+28-05-2024 11:55 a. m.	 >>> 	tipopago:CHE
+28-05-2024 11:58 a. m.	 >>> 	INI:
+28-05-2024 11:58 a. m.	 >>> 	conexion:
+28-05-2024 11:58 a. m.	 >>> 	inicio:
+28-05-2024 11:58 a. m.	 >>> 	tipopago:CHE
+28-05-2024 12:57 p. m.	 >>> 	INI:
+28-05-2024 12:57 p. m.	 >>> 	conexion:
+28-05-2024 12:57 p. m.	 >>> 	inicio:
+28-05-2024 12:57 p. m.	 >>> 	tipopago:RET
+28-05-2024 12:57 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='30' and "codcuota"='1' and "tipo_doc"='FAC'
+28-05-2024 12:57 p. m.	 >>> 	existedocumento = true
+28-05-2024 12:57 p. m.	 >>> 	documento:30/1 SaldoValor:0 Aplicado:0,14
+28-05-2024 01:00 p. m.	 >>> 	INI:
+28-05-2024 01:00 p. m.	 >>> 	conexion:
+28-05-2024 01:00 p. m.	 >>> 	inicio:
+28-05-2024 01:00 p. m.	 >>> 	tipopago:RET
+28-05-2024 01:00 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='30' and "codcuota"='1' and "tipo_doc"='FAC'
+28-05-2024 01:00 p. m.	 >>> 	existedocumento = true
+28-05-2024 01:01 p. m.	 >>> 	documento:30/1 SaldoValor:0 Aplicado:0,14
+28-05-2024 01:05 p. m.	 >>> 	INI:
+28-05-2024 01:05 p. m.	 >>> 	conexion:
+28-05-2024 01:05 p. m.	 >>> 	inicio:
+28-05-2024 01:05 p. m.	 >>> 	tipopago:RET
+28-05-2024 01:05 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='30' and "codcuota"='1' and "tipo_doc"='FAC'
+28-05-2024 01:05 p. m.	 >>> 	existedocumento = true
+28-05-2024 01:05 p. m.	 >>> 	documento:30/1 SaldoValor:0 Aplicado:0,14
+21-06-2024 03:52 p. m.	 >>> 	INI:
+21-06-2024 03:52 p. m.	 >>> 	INI:
+21-06-2024 04:52 p. m.	 >>> 	INI:
+21-06-2024 04:53 p. m.	 >>> 	INI:
+21-06-2024 04:58 p. m.	 >>> 	INI:
+21-06-2024 04:59 p. m.	 >>> 	conexion:
+21-06-2024 04:59 p. m.	 >>> 	inicio:
+21-06-2024 04:59 p. m.	 >>> 	tipopago:TAR
+21-06-2024 05:10 p. m.	 >>> 	conexion:
+21-06-2024 05:11 p. m.	 >>> 	inicio:
+21-06-2024 05:11 p. m.	 >>> 	tipopago:TAR
+24-06-2024 10:52 a. m.	 >>> 	INI:
+24-06-2024 11:09 a. m.	 >>> 	INI:
+24-06-2024 11:09 a. m.	 >>> 	conexion:
+24-06-2024 11:09 a. m.	 >>> 	inicio:
+24-06-2024 11:09 a. m.	 >>> 	tipopago:TAR
+24-06-2024 11:10 a. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='10' and "codcuota"='11' and "tipo_doc"='FAC'
+24-06-2024 11:10 a. m.	 >>> 	existedocumento = true
+24-06-2024 11:10 a. m.	 >>> 	documento:10/11 SaldoValor:0 Aplicado:10
+24-06-2024 11:29 a. m.	 >>> 	INI:
+24-06-2024 11:29 a. m.	 >>> 	conexion:
+24-06-2024 11:29 a. m.	 >>> 	inicio:
+24-06-2024 11:29 a. m.	 >>> 	tipopago:TAR
+24-06-2024 11:29 a. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='10' and "codcuota"='11' and "tipo_doc"='FAC'
+24-06-2024 11:29 a. m.	 >>> 	existedocumento = true
+24-06-2024 11:30 a. m.	 >>> 	documento:10/11 SaldoValor:0 Aplicado:10
+24-06-2024 12:02 p. m.	 >>> 	INI:
+24-06-2024 12:02 p. m.	 >>> 	conexion:
+24-06-2024 12:02 p. m.	 >>> 	inicio:
+24-06-2024 12:02 p. m.	 >>> 	tipopago:TAR
+24-06-2024 12:02 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='10' and "codcuota"='12' and "tipo_doc"='FAC'
+25-06-2024 12:06 p. m.	 >>> 	INI:
+25-06-2024 12:07 p. m.	 >>> 	conexion:
+25-06-2024 12:07 p. m.	 >>> 	inicio:
+25-06-2024 12:07 p. m.	 >>> 	tipopago:TAR
+25-06-2024 12:09 p. m.	 >>> 	SQLsaldocuota: select "saldo", "total" from "MD_CTASXCOBRAR" where "docEntry"='10' and "codcuota"='12' and "tipo_doc"='FAC'
+25-06-2024 12:09 p. m.	 >>> 	existedocumento = true
+25-06-2024 12:10 p. m.	 >>> 	documento:10/12 SaldoValor:0 Aplicado:3
+25-06-2024 12:20 p. m.	 >>> 	INI:
+25-06-2024 12:20 p. m.	 >>> 	conexion:
+25-06-2024 12:20 p. m.	 >>> 	inicio:
+25-06-2024 12:20 p. m.	 >>> 	tipopago:TAR
+25-06-2024 12:28 p. m.	 >>> 	INI:
+25-06-2024 12:28 p. m.	 >>> 	conexion:
+25-06-2024 12:28 p. m.	 >>> 	inicio:
+25-06-2024 12:32 p. m.	 >>> 	INI:
+25-06-2024 12:32 p. m.	 >>> 	conexion:
+25-06-2024 12:32 p. m.	 >>> 	inicio:
+25-06-2024 12:32 p. m.	 >>> 	tipopago:TAR
+25-06-2024 12:39 p. m.	 >>> 	INI:
+25-06-2024 12:39 p. m.	 >>> 	conexion:
+25-06-2024 12:39 p. m.	 >>> 	inicio:
+25-06-2024 12:39 p. m.	 >>> 	tipopago:TAR
+25-06-2024 05:31 p. m.	 >>> 	INI:
+25-06-2024 05:33 p. m.	 >>> 	INI:
+25-06-2024 05:33 p. m.	 >>> 	conexion:
+25-06-2024 05:33 p. m.	 >>> 	inicio:
+25-06-2024 05:36 p. m.	 >>> 	INI:
+25-06-2024 05:36 p. m.	 >>> 	conexion:
+25-06-2024 05:37 p. m.	 >>> 	inicio:
+25-06-2024 05:37 p. m.	 >>> 	tipopago:CHE
+25-06-2024 05:38 p. m.	 >>> 	tipopago:EFE
+25-06-2024 05:39 p. m.	 >>> 	tipopago:TAR
+26-06-2024 04:47 p. m.	 >>> 	INI:
+26-06-2024 04:47 p. m.	 >>> 	conexion:
+26-06-2024 04:47 p. m.	 >>> 	inicio:
+26-06-2024 04:47 p. m.	 >>> 	tipopago:CHE
+26-06-2024 04:47 p. m.	 >>> 	tipopago:EFE
+26-06-2024 04:47 p. m.	 >>> 	tipopago:TAR
+26-06-2024 04:48 p. m.	 >>> 	tipopago:TAR
+26-06-2024 05:08 p. m.	 >>> 	INI:
+26-06-2024 05:08 p. m.	 >>> 	conexion:
+26-06-2024 05:08 p. m.	 >>> 	inicio:
+26-06-2024 05:08 p. m.	 >>> 	tipopago:CHE
+26-06-2024 05:08 p. m.	 >>> 	tipopago:EFE
+26-06-2024 05:08 p. m.	 >>> 	tipopago:TAR
+26-06-2024 05:10 p. m.	 >>> 	tipopago:TAR
+27-06-2024 03:29 p. m.	 >>> 	INI:
+27-06-2024 03:29 p. m.	 >>> 	conexion:
+27-06-2024 03:29 p. m.	 >>> 	inicio:
+27-06-2024 03:29 p. m.	 >>> 	tipopago:CHE
+27-06-2024 03:30 p. m.	 >>> 	tipopago:DEP
+27-06-2024 03:30 p. m.	 >>> 	tipopago:TAR
+27-06-2024 03:32 p. m.	 >>> 	INI:
+27-06-2024 03:32 p. m.	 >>> 	conexion:
+27-06-2024 03:32 p. m.	 >>> 	inicio:
+27-06-2024 03:32 p. m.	 >>> 	tipopago:CHE
+27-06-2024 03:32 p. m.	 >>> 	tipopago:DEP
+27-06-2024 03:32 p. m.	 >>> 	tipopago:TAR
+27-06-2024 03:34 p. m.	 >>> 	conexion:
+27-06-2024 03:34 p. m.	 >>> 	inicio:
+27-06-2024 03:34 p. m.	 >>> 	tipopago:CHE
+27-06-2024 03:34 p. m.	 >>> 	tipopago:DEP
+27-06-2024 03:34 p. m.	 >>> 	tipopago:TAR
+27-06-2024 03:35 p. m.	 >>> 	conexion:
+27-06-2024 03:35 p. m.	 >>> 	inicio:
+27-06-2024 03:35 p. m.	 >>> 	tipopago:CHE
+27-06-2024 03:35 p. m.	 >>> 	tipopago:DEP
+27-06-2024 03:35 p. m.	 >>> 	tipopago:TAR
+27-06-2024 03:56 p. m.	 >>> 	INI:
+27-06-2024 03:56 p. m.	 >>> 	conexion:
+27-06-2024 03:56 p. m.	 >>> 	inicio:
+27-06-2024 03:56 p. m.	 >>> 	tipopago:CHE
+27-06-2024 03:56 p. m.	 >>> 	tipopago:DEP
+27-06-2024 03:56 p. m.	 >>> 	tipopago:TAR
+19-07-2024 05:44 p. m.	 >>> 	INI:
+19-07-2024 05:45 p. m.	 >>> 	conexion:
+19-07-2024 05:46 p. m.	 >>> 	inicio:
+19-07-2024 05:46 p. m.	 >>> 	tipopago:CHE
+19-07-2024 05:48 p. m.	 >>> 	tipopago:EFE
+19-07-2024 05:49 p. m.	 >>> 	tipopago:LET
+19-07-2024 05:51 p. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 07:35 a. m.	 >>> 	conexion:
+20-07-2024 07:37 a. m.	 >>> 	INI:
+20-07-2024 07:37 a. m.	 >>> 	conexion:
+20-07-2024 07:37 a. m.	 >>> 	inicio:
+20-07-2024 07:37 a. m.	 >>> 	tipopago:CHE
+20-07-2024 07:37 a. m.	 >>> 	tipopago:EFE
+20-07-2024 07:37 a. m.	 >>> 	tipopago:LET
+20-07-2024 07:40 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:01 a. m.	 >>> 	INI:
+20-07-2024 08:01 a. m.	 >>> 	conexion:
+20-07-2024 08:01 a. m.	 >>> 	inicio:
+20-07-2024 08:01 a. m.	 >>> 	tipopago:CHE
+20-07-2024 08:02 a. m.	 >>> 	tipopago:EFE
+20-07-2024 08:02 a. m.	 >>> 	tipopago:LET
+20-07-2024 08:04 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:04 a. m.	 >>> 	conexion:
+20-07-2024 08:04 a. m.	 >>> 	inicio:
+20-07-2024 08:04 a. m.	 >>> 	tipopago:CHE
+20-07-2024 08:04 a. m.	 >>> 	tipopago:EFE
+20-07-2024 08:04 a. m.	 >>> 	tipopago:LET
+20-07-2024 08:06 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:18 a. m.	 >>> 	INI:
+20-07-2024 08:18 a. m.	 >>> 	conexion:
+20-07-2024 08:18 a. m.	 >>> 	inicio:
+20-07-2024 08:18 a. m.	 >>> 	tipopago:CHE
+20-07-2024 08:19 a. m.	 >>> 	tipopago:EFE
+20-07-2024 08:19 a. m.	 >>> 	tipopago:LET
+20-07-2024 08:24 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:40 a. m.	 >>> 	INI:
+20-07-2024 08:40 a. m.	 >>> 	conexion:
+20-07-2024 08:40 a. m.	 >>> 	inicio:
+20-07-2024 08:40 a. m.	 >>> 	tipopago:CHE
+20-07-2024 08:40 a. m.	 >>> 	tipopago:EFE
+20-07-2024 08:40 a. m.	 >>> 	tipopago:LET
+20-07-2024 08:41 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:52 a. m.	 >>> 	INI:
+20-07-2024 08:52 a. m.	 >>> 	conexion:
+20-07-2024 08:52 a. m.	 >>> 	inicio:
+20-07-2024 08:52 a. m.	 >>> 	tipopago:CHE
+20-07-2024 08:52 a. m.	 >>> 	tipopago:EFE
+20-07-2024 08:52 a. m.	 >>> 	tipopago:LET
+20-07-2024 09:20 a. m.	 >>> 	INI:
+20-07-2024 09:20 a. m.	 >>> 	conexion:
+20-07-2024 09:20 a. m.	 >>> 	inicio:
+20-07-2024 09:20 a. m.	 >>> 	tipopago:CHE
+20-07-2024 09:20 a. m.	 >>> 	tipopago:EFE
+20-07-2024 09:20 a. m.	 >>> 	tipopago:LET
+20-07-2024 09:20 a. m.	 >>> 	ReciboWeb:18- PK:20-CHE-50 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 09:23 a. m.	 >>> 	INI:
+20-07-2024 09:23 a. m.	 >>> 	conexion:
+20-07-2024 09:23 a. m.	 >>> 	inicio:
+20-07-2024 09:23 a. m.	 >>> 	tipopago:CHE
+20-07-2024 09:23 a. m.	 >>> 	tipopago:EFE
+20-07-2024 09:24 a. m.	 >>> 	tipopago:LET
+20-07-2024 09:25 a. m.	 >>> 	ReciboWeb:18- PK:20-CHE-50 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a

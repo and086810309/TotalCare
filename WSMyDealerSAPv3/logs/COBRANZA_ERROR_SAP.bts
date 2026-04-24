@@ -1,0 +1,113 @@
+13-05-2024 05:01 p. m.	 >>> 	existedocumento = true
+13-05-2024 05:02 p. m.	 >>> 	documento:10/12 SaldoValor:6
+13-05-2024 05:02 p. m.	 >>> 	ReciboWeb:16- PK:16-EFE-34 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden Pista11 -> Pista11a
+13-05-2024 05:44 p. m.	 >>> 	existedocumento = true
+13-05-2024 05:47 p. m.	 >>> 	documento:10/12 SaldoValor:6
+13-05-2024 05:48 p. m.	 >>> 	ReciboWeb:16- PK:16-EFE-34 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden Pista11 -> Pista11a
+13-05-2024 05:54 p. m.	 >>> 	existedocumento = true
+13-05-2024 05:54 p. m.	 >>> 	documento:10/12 SaldoValor:6
+13-05-2024 05:55 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -10: No se ha definido cuenta para pagos en efectivo Pista11 -> Pista11a
+14-05-2024 04:10 p. m.	 >>> 	existedocumento = true
+14-05-2024 04:10 p. m.	 >>> 	documento:10/12 SaldoValor:6
+14-05-2024 04:10 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -5002: Especifique una sucursal activa Pista11 -> Pista11a
+14-05-2024 04:15 p. m.	 >>> 	existedocumento = true
+14-05-2024 04:15 p. m.	 >>> 	documento:10/12 SaldoValor:6
+14-05-2024 04:15 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -5002: No es posible ejecución de transacción en cuenta del tipo título  [JDT1.Account][line: 1] , '1010101000'  [Mensaje 173-54]Pista11 -> Pista11a
+14-05-2024 04:26 p. m.	 >>> 	existedocumento = true
+14-05-2024 04:26 p. m.	 >>> 	documento:10/12 SaldoValor:3
+14-05-2024 04:27 p. m.	 >>> 	existedocumento = true
+14-05-2024 04:27 p. m.	 >>> 	documento:10/12 SaldoValor:0
+14-05-2024 04:27 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -10: Número de documento no permitido  [RCT2.DocEntry][line: 1]Pista11 -> Pista11a
+14-05-2024 04:31 p. m.	 >>> 	existedocumento = true
+14-05-2024 04:31 p. m.	 >>> 	documento:10/12 SaldoValor:6
+14-05-2024 05:28 p. m.	 >>> 	existedocumento = true
+14-05-2024 05:29 p. m.	 >>> 	documento:10/12 SaldoValor:3
+14-05-2024 05:31 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+14-05-2024 05:31 p. m.	 >>> 	existedocumento = true
+14-05-2024 05:32 p. m.	 >>> 	documento:10/12 SaldoValor:0
+14-05-2024 05:32 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -10: Número de documento no permitido  [RCT2.DocEntry][line: 1]Pista11 -> Pista11a
+14-05-2024 05:35 p. m.	 >>> 	existedocumento = true
+14-05-2024 05:35 p. m.	 >>> 	documento:10/12 SaldoValor:0
+14-05-2024 05:35 p. m.	 >>> 	ReciboWeb:20- PK:20-EFE-39 ** -10: Número de documento no permitido  [RCT2.DocEntry][line: 1]Pista11 -> Pista11a
+14-05-2024 05:39 p. m.	 >>> 	existedocumento = true
+14-05-2024 05:39 p. m.	 >>> 	documento:10/12 SaldoValor:6
+14-05-2024 05:42 p. m.	 >>> 	existedocumento = true
+14-05-2024 05:42 p. m.	 >>> 	documento:10/12 SaldoValor:3
+14-05-2024 05:59 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+15-05-2024 11:38 a. m.	 >>> 	existedocumento = true
+15-05-2024 11:38 a. m.	 >>> 	documento:10/12 SaldoValor:6
+15-05-2024 11:38 a. m.	 >>> 	existedocumento = true
+15-05-2024 11:38 a. m.	 >>> 	documento:10/12 SaldoValor:3
+15-05-2024 11:39 a. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+15-05-2024 04:25 p. m.	 >>> 	existedocumento = true
+15-05-2024 04:25 p. m.	 >>> 	documento:10/12 SaldoValor:6
+15-05-2024 04:27 p. m.	 >>> 	existedocumento = true
+15-05-2024 04:28 p. m.	 >>> 	documento:10/12 SaldoValor:3
+15-05-2024 04:37 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+16-05-2024 04:12 p. m.	 >>> 	existedocumento = true
+16-05-2024 04:12 p. m.	 >>> 	documento:53/1 SaldoValor:6
+16-05-2024 04:13 p. m.	 >>> 	existedocumento = true
+16-05-2024 04:13 p. m.	 >>> 	documento:53/1 SaldoValor:3
+16-05-2024 04:14 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+16-05-2024 04:24 p. m.	 >>> 	existedocumento = true
+16-05-2024 04:24 p. m.	 >>> 	documento:53/1 SaldoValor:6
+16-05-2024 04:34 p. m.	 >>> 	existedocumento = true
+16-05-2024 04:34 p. m.	 >>> 	documento:53/1 SaldoValor:6
+16-05-2024 04:34 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+16-05-2024 05:06 p. m.	 >>> 	existedocumento = true
+16-05-2024 05:06 p. m.	 >>> 	documento:53/1 SaldoValor:6
+16-05-2024 05:07 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+16-05-2024 05:32 p. m.	 >>> 	existedocumento = true
+16-05-2024 05:32 p. m.	 >>> 	documento:53/1 SaldoValor:6
+16-05-2024 05:32 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden Pista11 -> Pista11a
+16-05-2024 05:36 p. m.	 >>> 	existedocumento = true
+16-05-2024 05:36 p. m.	 >>> 	documento:56/2 SaldoValor:6
+16-05-2024 05:37 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -10: NO se ha seleccionado ninguna cuenta de LM p.efecto en los datos maestros de SN  [ORCT.BoeAcc]Pista11 -> Pista11a
+16-05-2024 05:47 p. m.	 >>> 	existedocumento = true
+16-05-2024 05:47 p. m.	 >>> 	documento:56/2 SaldoValor:6
+16-05-2024 05:47 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -10: NO se ha seleccionado ninguna cuenta de LM p.efecto en los datos maestros de SN  [ORCT.BoeAcc]Pista11 -> Pista11a
+16-05-2024 05:50 p. m.	 >>> 	existedocumento = true
+16-05-2024 05:50 p. m.	 >>> 	documento:53/1 SaldoValor:6
+16-05-2024 05:51 p. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+17-05-2024 10:23 a. m.	 >>> 	existedocumento = true
+17-05-2024 10:26 a. m.	 >>> 	documento:53/1 SaldoValor:6
+17-05-2024 10:31 a. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+17-05-2024 10:38 a. m.	 >>> 	existedocumento = true
+17-05-2024 10:38 a. m.	 >>> 	documento:53/1 SaldoValor:6
+17-05-2024 10:38 a. m.	 >>> 	ReciboWeb:20- PK:20-CHE-38 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+17-05-2024 10:47 a. m.	 >>> 	existedocumento = true
+17-05-2024 10:47 a. m.	 >>> 	documento:53/1 SaldoValor:6
+22-05-2024 04:58 p. m.	 >>> 	ReciboWeb:30 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+22-05-2024 05:01 p. m.	 >>> 	ReciboWeb:30 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+22-05-2024 05:18 p. m.	 >>> 	ReciboWeb:30 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+22-05-2024 05:21 p. m.	 >>> 	ReciboWeb:30 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+22-05-2024 05:29 p. m.	 >>> 	ReciboWeb:30 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+22-05-2024 05:51 p. m.	 >>> 	ReciboWeb:30 ** -10: No existe código de tarjeta de crédito  [RCT3.CreditCard][line: 1]retPista21 -> retPista21a
+22-05-2024 05:57 p. m.	 >>> 	ReciboWeb:30 ** -10: No existe código de tarjeta de crédito  [RCT3.CreditCard][line: 1]retPista21 -> retPista21a
+28-05-2024 10:58 a. m.	 >>> 	existedocumento = true
+28-05-2024 10:58 a. m.	 >>> 	documento:55/1 SaldoValor:6
+28-05-2024 10:59 a. m.	 >>> 	ReciboWeb:30- PK:20-CHE-55 ** -10: El período de serie no coincide con el período actual  [ORCT.Series]Pista11 -> Pista11a
+28-05-2024 11:02 a. m.	 >>> 	existedocumento = true
+28-05-2024 11:02 a. m.	 >>> 	documento:55/1 SaldoValor:6
+28-05-2024 11:02 a. m.	 >>> 	ReciboWeb:30- PK:20-CHE-55 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+28-05-2024 11:36 a. m.	 >>> 	existedocumento = true
+28-05-2024 11:36 a. m.	 >>> 	documento:55/1 SaldoValor:6
+28-05-2024 12:57 p. m.	 >>> 	ReciboWeb:30 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden retPista21 -> retPista21a
+28-05-2024 01:01 p. m.	 >>> 	ReciboWeb:30 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden retPista21 -> retPista21a
+21-06-2024 05:08 p. m.	 >>> 	ReciboWeb:30 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+21-06-2024 05:13 p. m.	 >>> 	ReciboWeb:30 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+24-06-2024 11:11 a. m.	 >>> 	ReciboWeb:30 ** -10: Tarjeta documento base y tarjeta documento destino no coinciden retPista21 -> retPista21a
+25-06-2024 12:33 p. m.	 >>> 	ReciboWeb:35 ** -10: Falta especificación para medio de pago  [RCT3.VoucherNum][line: 0]retPista21 -> retPista21a
+26-06-2024 04:53 p. m.	 >>> 	ReciboWeb:123 ** -10: No existe código de tarjeta de crédito  [RCT3.CreditCard][line: 1]retPista21 -> retPista21a
+27-06-2024 03:31 p. m.	 >>> 	ReciboWeb:128 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+27-06-2024 03:34 p. m.	 >>> 	ReciboWeb:128 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+27-06-2024 03:34 p. m.	 >>> 	ReciboWeb:128 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+27-06-2024 03:45 p. m.	 >>> 	ReciboWeb:128 ** -2028: No existen registros coincidentes (ODBC -2028)retPista21 -> retPista21a
+19-07-2024 05:51 p. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 07:40 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:04 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:06 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:24 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 08:41 a. m.	 >>> 	ReciboWeb:19- PK:19-CHE-24 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 09:20 a. m.	 >>> 	ReciboWeb:18- PK:20-CHE-50 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a
+20-07-2024 09:25 a. m.	 >>> 	ReciboWeb:18- PK:20-CHE-50 ** -2028: No existen registros coincidentes (ODBC -2028)Pista11 -> Pista11a

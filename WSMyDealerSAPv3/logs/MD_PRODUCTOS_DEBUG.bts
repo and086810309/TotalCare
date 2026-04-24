@@ -1,0 +1,12 @@
+26-03-2024 11:49 a. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.General.obtenerDatosTablaVista(String nombreTablaVista, Int32 inicio, Int32 cantidad) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\General.cs:línea 98
+26-03-2024 11:53 a. m.	 >>> 	   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.General.obtenerDatosTablaVista(String nombreTablaVista, Int32 inicio, Int32 cantidad) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\General.cs:línea 98

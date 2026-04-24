@@ -1,0 +1,213 @@
+13-05-2024 04:55 p. m.	 >>> 	Pista:Pista00defe -> 50 -> U_MD_RECIBO  16-EFE-34 -> serie :PIGY_001
+13-05-2024 04:55 p. m.	 >>> 	MessageLa cadena de entrada no tiene el formato correcto.
+13-05-2024 04:55 p. m.	 >>> 	StackTrace   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 412
+13-05-2024 04:55 p. m.	 >>> 	Error:System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 412
+13-05-2024 04:59 p. m.	 >>> 	Pista:Pista05
+13-05-2024 04:59 p. m.	 >>> 	MessageERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: DocEntry: line 1 col 54 (at pos 53)
+13-05-2024 04:59 p. m.	 >>> 	StackTrace   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 486
+13-05-2024 04:59 p. m.	 >>> 	Error:System.Data.Odbc.OdbcException (0x80131937): ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: DocEntry: line 1 col 54 (at pos 53)
+   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 486
+13-05-2024 05:05 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:Tarjeta documento base y tarjeta documento destino no coinciden 
+13-05-2024 05:05 p. m.	 >>> 	Message16-EFE-34 :: Tarjeta documento base y tarjeta documento destino no coinciden  :: Pista: 16-EFE-34 :: Pista11 -> Pista11a -> ERRORSAP:Tarjeta documento base y tarjeta documento destino no coinciden 
+13-05-2024 05:05 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 698
+13-05-2024 05:05 p. m.	 >>> 	Error:System.Exception: 16-EFE-34 :: Tarjeta documento base y tarjeta documento destino no coinciden  :: Pista: 16-EFE-34 :: Pista11 -> Pista11a -> ERRORSAP:Tarjeta documento base y tarjeta documento destino no coinciden 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 698
+13-05-2024 06:06 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No se ha definido cuenta para pagos en efectivo 
+13-05-2024 06:06 p. m.	 >>> 	Message20-EFE-39 :: No se ha definido cuenta para pagos en efectivo  :: Pista: 20-EFE-39 :: Pista11 -> Pista11a -> ERRORSAP:No se ha definido cuenta para pagos en efectivo 
+13-05-2024 06:06 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 698
+13-05-2024 06:06 p. m.	 >>> 	Error:System.Exception: 20-EFE-39 :: No se ha definido cuenta para pagos en efectivo  :: Pista: 20-EFE-39 :: Pista11 -> Pista11a -> ERRORSAP:No se ha definido cuenta para pagos en efectivo 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 698
+14-05-2024 04:25 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No es posible ejecución de transacción en cuenta del tipo título  [JDT1.Account][line: 1] , '1010101000'  [Mensaje 173-54]
+14-05-2024 04:25 p. m.	 >>> 	Message20-EFE-39 :: No es posible ejecución de transacción en cuenta del tipo título  [JDT1.Account][line: 1] , '1010101000'  [Mensaje 173-54] :: Pista: 20-EFE-39 :: Pista11 -> Pista11a -> ERRORSAP:No es posible ejecución de transacción en cuenta del tipo título  [JDT1.Account][line: 1] , '1010101000'  [Mensaje 173-54]
+14-05-2024 04:25 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 04:25 p. m.	 >>> 	Error:System.Exception: 20-EFE-39 :: No es posible ejecución de transacción en cuenta del tipo título  [JDT1.Account][line: 1] , '1010101000'  [Mensaje 173-54] :: Pista: 20-EFE-39 :: Pista11 -> Pista11a -> ERRORSAP:No es posible ejecución de transacción en cuenta del tipo título  [JDT1.Account][line: 1] , '1010101000'  [Mensaje 173-54]
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 04:30 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+14-05-2024 04:30 p. m.	 >>> 	Message20-CHE-38 :: Número de documento no permitido  [RCT2.DocEntry][line: 1] :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+14-05-2024 04:30 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 04:30 p. m.	 >>> 	Error:System.Exception: 20-CHE-38 :: Número de documento no permitido  [RCT2.DocEntry][line: 1] :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 05:31 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+14-05-2024 05:31 p. m.	 >>> 	Message20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+14-05-2024 05:31 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 05:31 p. m.	 >>> 	Error:System.Exception: 20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 05:33 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+14-05-2024 05:33 p. m.	 >>> 	Message20-EFE-39 :: Número de documento no permitido  [RCT2.DocEntry][line: 1] :: Pista: 20-EFE-39 :: Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+14-05-2024 05:33 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 05:33 p. m.	 >>> 	Error:System.Exception: 20-EFE-39 :: Número de documento no permitido  [RCT2.DocEntry][line: 1] :: Pista: 20-EFE-39 :: Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 05:36 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+14-05-2024 05:36 p. m.	 >>> 	Message20-EFE-39 :: Número de documento no permitido  [RCT2.DocEntry][line: 1] :: Pista: 20-EFE-39 :: Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+14-05-2024 05:36 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+14-05-2024 05:36 p. m.	 >>> 	Error:System.Exception: 20-EFE-39 :: Número de documento no permitido  [RCT2.DocEntry][line: 1] :: Pista: 20-EFE-39 :: Pista11 -> Pista11a -> ERRORSAP:Número de documento no permitido  [RCT2.DocEntry][line: 1]
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+15-05-2024 12:06 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+15-05-2024 12:06 p. m.	 >>> 	Message20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+15-05-2024 12:06 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+15-05-2024 12:06 p. m.	 >>> 	Error:System.Exception: 20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+16-05-2024 04:10 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+16-05-2024 04:10 p. m.	 >>> 	Message20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+16-05-2024 04:10 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+16-05-2024 04:10 p. m.	 >>> 	Error:System.Exception: 20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+16-05-2024 04:15 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+16-05-2024 04:15 p. m.	 >>> 	Message20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+16-05-2024 04:15 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+16-05-2024 04:15 p. m.	 >>> 	Error:System.Exception: 20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+16-05-2024 05:02 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+16-05-2024 05:02 p. m.	 >>> 	Message20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+16-05-2024 05:02 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+16-05-2024 05:02 p. m.	 >>> 	Error:System.Exception: 20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+16-05-2024 05:07 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+16-05-2024 05:07 p. m.	 >>> 	Message20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+16-05-2024 05:07 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+16-05-2024 05:07 p. m.	 >>> 	Error:System.Exception: 20-CHE-38 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-38 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 702
+22-05-2024 04:46 p. m.	 >>> 	Pista:retPista09
+22-05-2024 04:46 p. m.	 >>> 	MessageReferencia a objeto no establecida como instancia de un objeto.
+22-05-2024 04:46 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 367
+22-05-2024 04:46 p. m.	 >>> 	Error:System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 367
+22-05-2024 05:00 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:No existen registros coincidentes (ODBC -2028) -> Pista12
+22-05-2024 05:00 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+22-05-2024 05:00 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 796
+22-05-2024 05:00 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 796
+22-05-2024 05:19 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:No existen registros coincidentes (ODBC -2028) -> Pista12
+22-05-2024 05:19 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+22-05-2024 05:19 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 799
+22-05-2024 05:19 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 799
+22-05-2024 05:45 p. m.	 >>> 	Pista:retPista05
+22-05-2024 05:45 p. m.	 >>> 	MessageERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: DocEntry: line 1 col 54 (at pos 53)
+22-05-2024 05:45 p. m.	 >>> 	StackTrace   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 296
+22-05-2024 05:45 p. m.	 >>> 	Error:System.Data.Odbc.OdbcException (0x80131937): ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: DocEntry: line 1 col 54 (at pos 53)
+   en System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 296
+28-05-2024 10:59 a. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:El período de serie no coincide con el período actual  [ORCT.Series]
+28-05-2024 10:59 a. m.	 >>> 	Message20-CHE-55 :: El período de serie no coincide con el período actual  [ORCT.Series] :: Pista: 20-CHE-55 :: Pista11 -> Pista11a -> ERRORSAP:El período de serie no coincide con el período actual  [ORCT.Series]
+28-05-2024 10:59 a. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 719
+28-05-2024 10:59 a. m.	 >>> 	Error:System.Exception: 20-CHE-55 :: El período de serie no coincide con el período actual  [ORCT.Series] :: Pista: 20-CHE-55 :: Pista11 -> Pista11a -> ERRORSAP:El período de serie no coincide con el período actual  [ORCT.Series]
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 719
+28-05-2024 11:14 a. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+28-05-2024 11:14 a. m.	 >>> 	Message20-CHE-55 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-55 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+28-05-2024 11:14 a. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 719
+28-05-2024 11:14 a. m.	 >>> 	Error:System.Exception: 20-CHE-55 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-55 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 719
+28-05-2024 12:58 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:Tarjeta documento base y tarjeta documento destino no coinciden  -> Pista12
+28-05-2024 12:58 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+28-05-2024 12:58 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 799
+28-05-2024 12:58 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 799
+21-06-2024 05:10 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:No existen registros coincidentes (ODBC -2028) -> Pista12
+21-06-2024 05:10 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+21-06-2024 05:10 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+21-06-2024 05:10 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+24-06-2024 12:02 p. m.	 >>> 	Pista:retPista05
+24-06-2024 12:02 p. m.	 >>> 	MessageExecuteReader requiere una Connection abierta y disponible. El estado actual de la conexión es cerrada.
+24-06-2024 12:02 p. m.	 >>> 	StackTrace   en System.Data.Odbc.OdbcConnection.SetStateExecuting(String method, OdbcTransaction transaction)
+   en System.Data.Odbc.OdbcCommand.ValidateConnectionAndTransaction(String method)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 297
+24-06-2024 12:02 p. m.	 >>> 	Error:System.InvalidOperationException: ExecuteReader requiere una Connection abierta y disponible. El estado actual de la conexión es cerrada.
+   en System.Data.Odbc.OdbcConnection.SetStateExecuting(String method, OdbcTransaction transaction)
+   en System.Data.Odbc.OdbcCommand.ValidateConnectionAndTransaction(String method)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   en System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Odbc.OdbcCommand.ExecuteReader()
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 297
+26-06-2024 04:54 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:No existe código de tarjeta de crédito  [RCT3.CreditCard][line: 1] -> Pista12
+26-06-2024 04:54 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+26-06-2024 04:54 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 856
+26-06-2024 04:54 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 856
+27-06-2024 03:31 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:No existen registros coincidentes (ODBC -2028) -> Pista12
+27-06-2024 03:31 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+27-06-2024 03:31 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 858
+27-06-2024 03:31 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 858
+27-06-2024 03:34 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:No existen registros coincidentes (ODBC -2028) -> Pista12
+27-06-2024 03:34 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+27-06-2024 03:34 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 858
+27-06-2024 03:34 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 858
+27-06-2024 03:34 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:No existen registros coincidentes (ODBC -2028) -> Pista12
+27-06-2024 03:34 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+27-06-2024 03:34 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 858
+27-06-2024 03:34 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 858
+27-06-2024 03:46 p. m.	 >>> 	Pista:retPista21 -> retPista21a -> ERRORSAP:No existen registros coincidentes (ODBC -2028) -> Pista12
+27-06-2024 03:46 p. m.	 >>> 	MessageNo se realizó ninguna cobranza 
+27-06-2024 03:46 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 858
+27-06-2024 03:46 p. m.	 >>> 	Error:System.Exception: No se realizó ninguna cobranza 
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 858
+19-07-2024 05:52 p. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+19-07-2024 05:52 p. m.	 >>> 	Message19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+19-07-2024 05:52 p. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 799
+19-07-2024 05:52 p. m.	 >>> 	Error:System.Exception: 19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 799
+20-07-2024 08:04 a. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 08:04 a. m.	 >>> 	Message19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 08:04 a. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 800
+20-07-2024 08:04 a. m.	 >>> 	Error:System.Exception: 19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 800
+20-07-2024 08:07 a. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 08:07 a. m.	 >>> 	Message19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 08:07 a. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 800
+20-07-2024 08:07 a. m.	 >>> 	Error:System.Exception: 19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 800
+20-07-2024 08:25 a. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 08:25 a. m.	 >>> 	Message19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 08:25 a. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+20-07-2024 08:25 a. m.	 >>> 	Error:System.Exception: 19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+20-07-2024 08:51 a. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 08:51 a. m.	 >>> 	Message19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 08:51 a. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+20-07-2024 08:51 a. m.	 >>> 	Error:System.Exception: 19-CHE-24 :: No existen registros coincidentes (ODBC -2028) :: Pista: 19-CHE-24 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+20-07-2024 09:22 a. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 09:22 a. m.	 >>> 	Message20-CHE-50 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-50 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 09:22 a. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+20-07-2024 09:22 a. m.	 >>> 	Error:System.Exception: 20-CHE-50 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-50 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+20-07-2024 09:25 a. m.	 >>> 	Pista:Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 09:25 a. m.	 >>> 	Message20-CHE-50 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-50 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+20-07-2024 09:25 a. m.	 >>> 	StackTrace   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801
+20-07-2024 09:25 a. m.	 >>> 	Error:System.Exception: 20-CHE-50 :: No existen registros coincidentes (ODBC -2028) :: Pista: 20-CHE-50 :: Pista11 -> Pista11a -> ERRORSAP:No existen registros coincidentes (ODBC -2028)
+   en WSMyDealerSAPv3.Cobranza.ingresarCobranza(SeccionPagosEfectivo cabeceraPagos, List`1 documentos, List`1 pagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 801

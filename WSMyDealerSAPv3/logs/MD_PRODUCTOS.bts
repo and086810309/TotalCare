@@ -1,0 +1,2 @@
+26-03-2024 11:49 a. m.	 >>> 	ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view md_productos in schema DB_PRUEBAS03: line 1 col 34 (at pos 33)
+26-03-2024 11:53 a. m.	 >>> 	ERROR [42S02] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Base table or view not found;259 invalid table name:  Could not find table/view md_productos in schema DB_PRUEBAS03: line 1 col 34 (at pos 33)
