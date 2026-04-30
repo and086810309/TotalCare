@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Data;
 
 using System.Xml;
-using System.Data.Odbc;
+
 
 namespace WSMyDealerSAPv3
 {
@@ -46,10 +46,10 @@ namespace WSMyDealerSAPv3
             {
                 String sql = " select numorden, numordenweb, DocNum, tipo from md_notas_credito  with(nolock) where numordenweb=" + numSolicitud;
 
-                OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                 com.CommandType = CommandType.Text;
 
-                OdbcDataReader record = com.ExecuteReader();
+                SqlDataReader record = com.ExecuteReader();
                 if (record.HasRows)
                 {
                     // record.MoveFirst();
@@ -117,10 +117,10 @@ namespace WSMyDealerSAPv3
 
             string sql = " select code from OSTC where rate  = " + iva_rate;
 
-            OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+            SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
             com.CommandType = CommandType.Text;
 
-            OdbcDataReader record = com.ExecuteReader();
+            SqlDataReader record = com.ExecuteReader();
             if (record.HasRows)
             {
 
@@ -164,10 +164,10 @@ namespace WSMyDealerSAPv3
                          " where F.DocSubType = '--' " +
                          "         and F.DOCENTRY = " + num_factura;
 
-            OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+            SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
             com.CommandType = CommandType.Text;
 
-            OdbcDataReader record = com.ExecuteReader();
+            SqlDataReader record = com.ExecuteReader();
             if (record.HasRows)
             {
                 
@@ -239,7 +239,7 @@ namespace WSMyDealerSAPv3
 
 
                 company = DataBase.conectar();
-                if (!DataBase.Respuesta.Exito) throw new Exception("Error al conectarse a la Compañia");
+                if (!DataBase.Respuesta.Exito) throw new Exception("Error al conectarse a la Compa�ia");
 
 
                 codsolicitud = datosCliente["NumeroSolicitud"].InnerText;

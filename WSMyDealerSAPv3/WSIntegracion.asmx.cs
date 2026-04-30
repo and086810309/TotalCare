@@ -5,6 +5,8 @@ using System.Web;
 using System.Xml;
 using System.Web.Services;
 using SAPbobsCOM;
+using WSMyDealerSAPv3.notacredito;
+using WSMyDealerSAPv3.devolucion;
 
 namespace WSMyDealerSAPv3
 {
@@ -18,6 +20,31 @@ namespace WSMyDealerSAPv3
     // [System.Web.Script.Services.ScriptService]
     public class WSIntegracion : System.Web.Services.WebService
     {
+        [WebMethod(Description = "DESA - Permite verificar funcionamiento de BDD")]
+        public string verificarConexionSQL()
+        {
+            List<String> response = new List<String>();
+            try
+            {
+                DBSqlServer.ConectaDB();
+                if (!DBSqlServer.Respuesta.Exito)
+                {
+                    return DBSqlServer.Respuesta.CodigoError + " - " + DBSqlServer.Respuesta.CodigoRespuesta + " - " 
+                        + DBSqlServer.Respuesta.DescripcionError + DBSqlServer.Conexion.ConnectionString;
+                }
+                else
+                {
+                    return "Correcto - BDD conectada por DI API";
+                }
+            }
+            catch (Exception e)
+            {
+                DatosEnlace.release_variables();
+                logs.grabarLog("LOG_WSINTEGRACION", e.Message);
+                logs.grabarLog("LOG_WSINTEGRACION", e.StackTrace);
+                return  DBSqlServer.Respuesta.CodigoError + " - " + DBSqlServer.Respuesta.CodigoRespuesta + " - " + e.Message + " - " + DBSqlServer.Conexion.ConnectionString;
+            }
+        }
         [WebMethod(Description = "DESA - Permite verificar funcionamiento de DI API")]
         public string verificarSAPDIAPI()
         {
@@ -30,7 +57,7 @@ namespace WSMyDealerSAPv3
                 if (!DataBase.Respuesta.Exito)
                 {
                     DatosEnlace.release_variables();
-                    return DataBase.Respuesta.CodigoError + " - " + DataBase.Respuesta.CodigoRespuesta + " - " + DataBase.Respuesta.DescripcionError;
+                    return " LICENCIA SERVER" + company.LicenseServer + " BDD " + company.CompanyDB + " SERVER " + company.Server + " USER BDD " + company.DbUserName + " PASS BDD " + company.DbPassword + "  " + DataBase.Respuesta.CodigoError + " - " + DataBase.Respuesta.CodigoRespuesta + " - " + DataBase.Respuesta.DescripcionError;
                 }
                 else
                 {
@@ -666,9 +693,31 @@ namespace WSMyDealerSAPv3
         }*/
 
 
+        [WebMethod(Description = "Servicio web que sirve para crea NC")]
+        public RespuestaNC crearNotaCredito(CabeceraNC cabecera, DetalleNC[] detalles)
+        {
+            return NotaCredito.crearNotaCredito(cabecera, detalles);
+        }
 
-
-
-
+        [WebMethod(Description = "Servicio web que sirve para registrar DV")]
+        public RespuestaDV registrarDevolucion(CabeceraDV cabecera, DetalleDV[] detalles, AutorizacionDV[] autorizaciones)
+        {
+            return Devolucion.registrarDevolucion(cabecera, detalles, autorizaciones);
+        }
+        [WebMethod(Description = "Servicio web que sirve para registrar mantenimiento modelo DV")]
+        public RespuestaDV registrarDevolucionModelo(ModeloDV modelo)
+        {
+            return MantenimientoDevolucion.registrarModelo(modelo);
+        }
+        [WebMethod(Description = "Servicio web que sirve para registrar mantenimiento etapa DV")]
+        public RespuestaDV registrarDevolucionEtapa(EtapaDV etapa)
+        {
+            return MantenimientoDevolucion.registrarEtapa(etapa);
+        }
+        [WebMethod(Description = "Servicio web que sirve para registrar mantenimiento motivo DV")]
+        public RespuestaDV registrarDevolucionMotivo(MotivoDV motivo)
+        {
+            return MantenimientoDevolucion.registrarMotivo(motivo);
+        }
     }
 }

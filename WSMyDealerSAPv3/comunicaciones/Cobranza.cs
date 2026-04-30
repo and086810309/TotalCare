@@ -1,11 +1,11 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml;
 using System.Data.SqlClient;
 using System.Data;
-using System.Data.Odbc;
+
 
 namespace WSMyDealerSAPv3
 {
@@ -35,10 +35,10 @@ namespace WSMyDealerSAPv3
             {
                 String sql = " select \"DocNum\", \"CounterRef\", \"DocEntry\" from \"ORCT\" where \"U_MD_RECIBO\"='" + numCobranza + "'";
 
-                OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                 com.CommandType = CommandType.Text;
 
-                OdbcDataReader record = com.ExecuteReader();
+                SqlDataReader record = com.ExecuteReader();
 
                 // int y = record.RecordCount;
                 //if (y > 0)
@@ -100,10 +100,10 @@ namespace WSMyDealerSAPv3
             {
                 String sql = " select \"DocNum\", \"CounterRef\", \"DocEntry\" from \"ORCT\" where \"U_MD_RECIBO\"='" + numCobranza + "'";
 
-                OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                 com.CommandType = CommandType.Text;
 
-                OdbcDataReader record = com.ExecuteReader();
+                SqlDataReader record = com.ExecuteReader();
 
                 if (record.HasRows)
                 {
@@ -216,7 +216,7 @@ namespace WSMyDealerSAPv3
                                     pista = "retPista10";
                                     logs.grabarLog("COBRANZA_XML", oDoc.GetAsXML());
                                     pista = "retPista11";
-                                    // AÃ±adir a SAP **************************************************************
+                                    // Añadir a SAP **************************************************************
                                     error = oDoc.Add();
                                     if (error != 0)
                                     {
@@ -294,9 +294,9 @@ namespace WSMyDealerSAPv3
                                         //string sql = " select \"saldo\", \"total\" from \"MD_CTASXCOBRAR\" where \"DocEntry\"='" + documento.NumeroDocumento + "' and \"codcuota\"='" + documento.NumeroCuota + "'";
                                         string sql = " select \"saldo\", \"total\" from \"MD_CTASXCOBRAR\" where \"docEntry\"='" + documento.NumeroDocumento + "' and \"codcuota\"='" + documento.NumeroCuota + "' and \"tipo_doc\"='" + documento.TipoDocumento + "'";
                                         logs.grabarLog("COBRANZA_LOG", "SQLsaldocuota:" + sql);
-                                        OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                                        SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                                         com.CommandType = CommandType.Text;
-                                        OdbcDataReader record = com.ExecuteReader();
+                                        SqlDataReader record = com.ExecuteReader();
                                         string saldodoc = "", totaldoc = "";
                                         if (record.HasRows)
                                         {
@@ -416,7 +416,7 @@ namespace WSMyDealerSAPv3
                                 
                                 oDoc.CreditCards.UserFields.Fields.Item("U_NUM_VOUCHER").Value = pago.PagosConTarjeta.NumeroAutorizacion;
                                 oDoc.CreditCards.UserFields.Fields.Item("U_CXS_NUM_LOTE").Value = pago.PagosConTarjeta.Lote;
-                                oDoc.CreditCards.FirstPaymentDue = DateTime.Today; //va la fecha en q se genera el pago de la retenciÃ³n en SAP
+                                oDoc.CreditCards.FirstPaymentDue = DateTime.Today; //va la fecha en q se genera el pago de la retención en SAP
                                 oDoc.CreditCards.OwnerPhone = pago.PagosConTarjeta.SetieRetencion;
                                 oDoc.CreditCards.PaymentMethodCode = 1; //siempre va 1
                                 oDoc.CreditCards.NumOfPayments = 1; //siempre va 1
@@ -434,7 +434,7 @@ namespace WSMyDealerSAPv3
                                 oDoc.CreditCards.CardValidUntil = DateTime.Parse(pago.PagosConTarjeta.FechaVencAutorizacion);
                                 oDoc.CreditCards.OwnerIdNum = pago.PagosConTarjeta.NumeroAutorizacion;
                                 oDoc.CreditCards.VoucherNum = pago.PagosConTarjeta.NumeroReclamoFactura;
-                                oDoc.CreditCards.FirstPaymentDue = DateTime.Today; //va la fecha en q se genera el pago de la retenciÃ³n en SAP
+                                oDoc.CreditCards.FirstPaymentDue = DateTime.Today; //va la fecha en q se genera el pago de la retención en SAP
                                 oDoc.CreditCards.OwnerPhone = pago.PagosConTarjeta.SetieRetencion;
                                 oDoc.CreditCards.PaymentMethodCode = 1; //siempre va 1
                                 oDoc.CreditCards.NumOfPayments = 1; //siempre va 1
@@ -562,9 +562,9 @@ namespace WSMyDealerSAPv3
                                 //obtengo saldo de la cuota actual en sap
                                 //string sql = " select \"saldo\", \"total\" from \"MD_CTASXCOBRAR\" where \"DocEntry\"='" + documento.NumeroDocumento + "' and \"codcuota\"='" + documento.NumeroCuota + "'";
                                 string sql = " select \"saldo\", \"total\" from \"MD_CTASXCOBRAR\" where \"docEntry\"='" + documento.NumeroDocumento + "' and \"codcuota\"='" + documento.NumeroCuota + "' and \"tipo_doc\"='" + documento.TipoDocumento + "'";
-                                OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                                SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                                 com.CommandType = CommandType.Text;
-                                OdbcDataReader record = com.ExecuteReader();
+                                SqlDataReader record = com.ExecuteReader();
                                 string saldodoc = "", totaldoc = "";
                                 if (record.HasRows)
                                 {
@@ -746,10 +746,10 @@ namespace WSMyDealerSAPv3
                                     //oDoc.BillOfExchangeAmount = aplicardoc;
                                     oDoc.Checks.CheckSum = aplicardoc; // Monto del cheque
                                     oDoc.Checks.CountryCode = pago.PagosConCheques.CodigoPais;
-                                    oDoc.Checks.BankCode = pago.PagosConCheques.CodigoBanco; // CÃ³digo del banco
-                                    oDoc.Checks.Branch = "BranchCode"; // CÃ³digo de la sucursal
-                                    oDoc.Checks.AccounttNum = pago.PagosConCheques.NumeroCuentaBancaria; // NÃºmero de cuenta
-                                    oDoc.Checks.CheckNumber = pago.PagosConCheques.NumeroCheques; // NÃºmero del cheque
+                                    oDoc.Checks.BankCode = pago.PagosConCheques.CodigoBanco; // Código del banco
+                                    oDoc.Checks.Branch = "BranchCode"; // Código de la sucursal
+                                    oDoc.Checks.AccounttNum = pago.PagosConCheques.NumeroCuentaBancaria; // Número de cuenta
+                                    oDoc.Checks.CheckNumber = pago.PagosConCheques.NumeroCheques; // Número del cheque
                                     oDoc.Checks.DueDate = DateTime.Parse(pago.PagosConCheques.FechaVencimiento); // Fecha de vencimiento del cheque
                                     oDoc.CheckAccount = pago.PagosConCheques.CuentaCheque;
                                     //LQ 20210727 comentado..// if (DateTime.Compare(oDoc.BillOfExchange.BillOfExchangeDueDate, oDoc.DueDate) > 0) oDoc.DueDate = oDoc.BillOfExchange.BillOfExchangeDueDate;
@@ -773,13 +773,13 @@ namespace WSMyDealerSAPv3
                         pista = "Pista10";
                         logs.grabarLog("COBRANZA_XML", oDoc.GetAsXML());
 
-                        // Si existe sobrande al final aÃ±adirlo a favor de la cuenta, permite sin cuenta? 
+                        // Si existe sobrande al final añadirlo a favor de la cuenta, permite sin cuenta? 
                         //oDoc.AccountPayments.SumPaid = 200;
                         //oDoc.AccountPayments.Add();
 
                         pista = "Pista11";
 
-                        // AÃ±adir a SAP
+                        // Añadir a SAP
                         error = oDoc.Add(); 
 
                         if (error != 0)
@@ -822,7 +822,7 @@ namespace WSMyDealerSAPv3
                             pista = "retPista20";
                             logs.grabarLog("COBRANZA_XML", oDoc.GetAsXML());
                             pista = "retPista21";
-                            // AÃ±adir a SAP **************************************************************
+                            // Añadir a SAP **************************************************************
                             error = oDoc.Add();
                             if (error != 0)
                             {
@@ -881,7 +881,7 @@ namespace WSMyDealerSAPv3
                     response.Add("COB001");
                     response.Add(mensaje);
 
-                    throw new Exception("No se realizÃ³ ninguna cobranza ");
+                    throw new Exception("No se realizó ninguna cobranza ");
                 }
 
             }
@@ -1098,27 +1098,27 @@ namespace WSMyDealerSAPv3
 
                 // Configurar los detalles del pago
                 oPayment.DocType = SAPbobsCOM.BoRcptTypes.rCustomer;
-                oPayment.CardCode = "C00011"; // CÃ³digo del cliente (modificar segÃºn sea necesario)
+                oPayment.CardCode = "C00011"; // Código del cliente (modificar según sea necesario)
                 oPayment.DocDate = DateTime.Now;
                 oPayment.BPLID = 2;
-                // Configurar detalles de la retenciÃ³n
+                // Configurar detalles de la retención
                 //oPayment.WithholdingTaxDataWTX.Add();
                 //oPayment.WithholdingTaxDataWTX.SetCurrentLine(0);
-                //oPayment.WithholdingTaxDataWTX.WTCode = "312"; // CÃ³digo de la retenciÃ³n
-                //oPayment.WithholdingTaxDataWTX.WTAmount = 33.64; // Monto de la retenciÃ³n
-                //oPayment.WithholdingTaxDataWTX.WTAccount = "1010501003"; // Cuenta contable de la retenciÃ³n
+                //oPayment.WithholdingTaxDataWTX.WTCode = "312"; // Código de la retención
+                //oPayment.WithholdingTaxDataWTX.WTAmount = 33.64; // Monto de la retención
+                //oPayment.WithholdingTaxDataWTX.WTAccount = "1010501003"; // Cuenta contable de la retención
 
-                // Configurar detalles de la tarjeta de crÃ©dito
-                oPayment.CreditCards.CreditCard = 8; // CÃ³digo de la tarjeta de crÃ©dito (asegÃºrate de que este cÃ³digo exista)
-                oPayment.CreditCards.CreditAcct = "1010101002"; // Cuenta contable asociada a la tarjeta de crÃ©dito
-                oPayment.CreditCards.CreditSum = 19.22; // Monto del pago con tarjeta de crÃ©dito
-                oPayment.CreditCards.CreditCardNumber = "9999"; // NÃºmero de la tarjeta de crÃ©dito
+                // Configurar detalles de la tarjeta de crédito
+                oPayment.CreditCards.CreditCard = 8; // Código de la tarjeta de crédito (asegúrate de que este código exista)
+                oPayment.CreditCards.CreditAcct = "1010101002"; // Cuenta contable asociada a la tarjeta de crédito
+                oPayment.CreditCards.CreditSum = 19.22; // Monto del pago con tarjeta de crédito
+                oPayment.CreditCards.CreditCardNumber = "9999"; // Número de la tarjeta de crédito
                 oPayment.CreditCards.CardValidUntil = DateTime.Parse("2024-05-21"); // Fecha de vencimiento de la tarjeta
-                oPayment.CreditCards.VoucherNum = "53"; // NÃºmero de autorizaciÃ³n
+                oPayment.CreditCards.VoucherNum = "53"; // Número de autorización
 
-                // Asociar el pago a una factura especÃ­fica (opcional)
+                // Asociar el pago a una factura específica (opcional)
                 SAPbobsCOM.Documents invoice = (SAPbobsCOM.Documents)company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oInvoices);
-                if (invoice.GetByKey(54)) // DocEntry de la factura (modificar segÃºn sea necesario)
+                if (invoice.GetByKey(54)) // DocEntry de la factura (modificar según sea necesario)
                 {
                     oPayment.Invoices.DocEntry = invoice.DocEntry;
                     oPayment.Invoices.InvoiceType = SAPbobsCOM.BoRcptInvTypes.it_Invoice;

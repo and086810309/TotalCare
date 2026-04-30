@@ -1,4 +1,4 @@
-Ôªøusing System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 using System.IO;
 using System.Data.SqlClient;
 using System.Data;
-using System.Data.Odbc;
+
 
 namespace WSMyDealerSAPv3
 {
@@ -36,10 +36,10 @@ namespace WSMyDealerSAPv3
             {
                 String sql = " select \"numpedidoerp\", \"srorden\", \"estado\"  from \"MD_PEDIDOS_ESTADO\" where \"srorden\"=" + numPedido;
 
-                OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                 com.CommandType = CommandType.Text;
 
-                OdbcDataReader record = com.ExecuteReader();
+                SqlDataReader record = com.ExecuteReader();
                 if (record.HasRows)
                 {
                     if (record.Read())
@@ -94,10 +94,10 @@ namespace WSMyDealerSAPv3
             {
                 String sql = query;
                 logs.grabarLog("PEDIDOS_sql", sql);
-                OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                 com.CommandType = CommandType.Text;
 
-                OdbcDataReader record = com.ExecuteReader();
+                SqlDataReader record = com.ExecuteReader();
                 if (record.HasRows)
                 {
                     if (record.Read())
@@ -304,22 +304,22 @@ namespace WSMyDealerSAPv3
 
             // Establecer campos de la orden de venta
             salesOrder.Series = 81;
-            salesOrder.CardCode = "C00010"; // C√≥digo del cliente
+            salesOrder.CardCode = "C00010"; // CÛdigo del cliente
             salesOrder.DocDueDate = DateTime.Now.Date; // Fecha de vencimiento del documento
 
-            // Agregar l√≠neas de detalle (productos)
-            salesOrder.Lines.ItemCode = "IND0001"; // C√≥digo del producto
+            // Agregar lÌneas de detalle (productos)
+            salesOrder.Lines.ItemCode = "IND0001"; // CÛdigo del producto
             salesOrder.Lines.Quantity = 1; // Cantidad del producto
             salesOrder.Lines.UnitPrice = 100.00; // Precio unitario del producto
             salesOrder.Lines.Add();
 
-            // Agregar m√°s l√≠neas de detalle si es necesario
+            // Agregar m·s lÌneas de detalle si es necesario
             salesOrder.BPL_IDAssignedToInvoice = 2;
             salesOrder.UserFields.Fields.Item("U_PI_ESTADOS").Value = "C";
             // Adicionar la orden de venta
             int result = salesOrder.Add();
 
-            // Verificar si la orden de venta se cre√≥ correctamente
+            // Verificar si la orden de venta se creÛ correctamente
             if (result == 0)
             {
                 Console.WriteLine("Orden de venta creada exitosamente.");
@@ -644,11 +644,11 @@ namespace WSMyDealerSAPv3
                 }
                 /*
                  vatsum es el valor del iva por cada linea
-    [15:00:30] Silvia Vivar: linetotal es el total de cada l√≠nea ya con descuento e iva
+    [15:00:30] Silvia Vivar: linetotal es el total de cada lÌnea ya con descuento e iva
     [15:00:51] Silvia Vivar: podria calcularlo de la siguiente manera
     [15:06:13] Silvia Vivar: el campo pricebefdi es el precio del item antes del descuento aplicado
     [15:06:39] Silvia Vivar: el campo price, ya contiene el precio menos el descuento
-    [15:07:23] Silvia Vivar: por lo tanto quantity *  price es el subtotal por l√≠nea
+    [15:07:23] Silvia Vivar: por lo tanto quantity *  price es el subtotal por lÌnea
                  */
 
                 response.Exito = true;

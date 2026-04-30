@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 using System.IO;
 using System.Data.SqlClient;
 using System.Data;
-using System.Data.Odbc;
+
 
 namespace WSMyDealerSAPv3
 {
@@ -23,10 +23,10 @@ namespace WSMyDealerSAPv3
             {
                 String sql = "SELECT * FROM \"OINV\" WHERE \"DocNum\" = "+numDebito+";";
 
-                OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                 com.CommandType = CommandType.Text;
 
-                OdbcDataReader record = com.ExecuteReader();
+                SqlDataReader record = com.ExecuteReader();
                 if (record.HasRows)
                 {
                     if (record.Read())
@@ -79,7 +79,7 @@ namespace WSMyDealerSAPv3
                 //oDoc = (SAPbobsCOM.Documents)company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oPurchaseInvoices);
                 oDoc = (SAPbobsCOM.Documents)company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oInvoices);
 
-                prefix_error = "Nota de dÃ©bito # " + cabecera.NumeroNotaDeDebito + " :: ";
+                prefix_error = "Nota de débito # " + cabecera.NumeroNotaDeDebito + " :: ";
 
                 oDoc.Series = cabecera.Series;
                 //oDoc.Series = "NDE01";
@@ -97,7 +97,7 @@ namespace WSMyDealerSAPv3
 
 
 
-                // ConfiguraciÃ³n del valor total de la nota de dÃ©bito
+                // Configuración del valor total de la nota de débito
                 oDoc.DocTotal = cabecera.ValorTotal;  
                 //oDoc.DocTotalFc = cabecera.ValorTotal;
                 if (detalles != null)
@@ -196,7 +196,7 @@ namespace WSMyDealerSAPv3
                 oDoc = (SAPbobsCOM.Documents)company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oInvoices);
                 //oDoc = (SAPbobsCOM.Documents)company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oPurchaseCreditNotes);
                 
-                prefix_error = "Nota de dÃ©bito # " + cabecera.NumeroNotaDeDebito + " :: ";
+                prefix_error = "Nota de débito # " + cabecera.NumeroNotaDeDebito + " :: ";
 
                 oDoc.Series = 80;
                 oDoc.DocType = SAPbobsCOM.BoDocumentTypes.dDocument_Service;
@@ -307,7 +307,7 @@ namespace WSMyDealerSAPv3
                 oDoc = (SAPbobsCOM.Documents)company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oInvoices);
                 //oDoc = (SAPbobsCOM.Documents)company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oPurchaseCreditNotes);
 
-                prefix_error = "Nota de dÃ©bito # " + cabecera.NumeroNotaDeDebito + " :: ";
+                prefix_error = "Nota de débito # " + cabecera.NumeroNotaDeDebito + " :: ";
 
                 oDoc.Series = 80;
                 oDoc.DocType = SAPbobsCOM.BoDocumentTypes.dDocument_Service;
@@ -407,31 +407,31 @@ namespace WSMyDealerSAPv3
             {
                 SAPbobsCOM.Items oItem = (SAPbobsCOM.Items)company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oItems);
 
-                // Configurar las propiedades del artÃ­culo
-                oItem.ItemCode = "704774963";  // CÃ³digo Ãºnico del artÃ­culo
+                // Configurar las propiedades del artículo
+                oItem.ItemCode = "704774963";  // Código único del artículo
                 oItem.ItemName = "Prueba AQ";
                 oItem.BarCode = "12345cb";
-                oItem.InventoryItem = SAPbobsCOM.BoYesNoEnum.tYES;  // Es un artÃ­culo de inventario
+                oItem.InventoryItem = SAPbobsCOM.BoYesNoEnum.tYES;  // Es un artículo de inventario
                 oItem.PurchaseItem = SAPbobsCOM.BoYesNoEnum.tYES;  // Se puede comprar
                 oItem.SalesItem = SAPbobsCOM.BoYesNoEnum.tYES;  // Se puede vender
-                oItem.ManageSerialNumbers = SAPbobsCOM.BoYesNoEnum.tNO;  // No se manejan nÃºmeros de serie
-                oItem.ManageBatchNumbers = SAPbobsCOM.BoYesNoEnum.tNO;  // No se manejan nÃºmeros de lote
+                oItem.ManageSerialNumbers = SAPbobsCOM.BoYesNoEnum.tNO;  // No se manejan números de serie
+                oItem.ManageBatchNumbers = SAPbobsCOM.BoYesNoEnum.tNO;  // No se manejan números de lote
                 //oItem.UserFields.Fields.Item("U_CCMarca").Value = "ABRA";  // Campo personalizado
                 //oItem.UserFields.Fields.Item("U_CCLinea").Value = "ACABA";
                 //oItem.UserFields.Fields.Item("U_MARCA_ICE").Value = "A3";
                 //oItem.UserFields.Fields.Item("U_CANTIDAD_MINIMA").Value = 1;
                 //oItem.UserFields.Fields.Item("U_PORCMAXDSCTO").Value = 0;
-                // Agregar el artÃ­culo
+                // Agregar el artículo
                 error = oItem.Add();
 
                 if (error != 0)
                 {
                     string descri = company.GetLastErrorDescription();
-                    Console.WriteLine($"Error al agregar el artÃ­culo: {company.GetLastErrorDescription()}");
+                    Console.WriteLine($"Error al agregar el artículo: {company.GetLastErrorDescription()}");
                 }
                 else
                 {
-                    Console.WriteLine("ArtÃ­culo agregado exitosamente.");
+                    Console.WriteLine("Artículo agregado exitosamente.");
                 }
             }
             catch (Exception e)

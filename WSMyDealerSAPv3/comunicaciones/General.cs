@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.SqlClient;
 using System.Data;
-using System.Data.Odbc;
+
 
 namespace WSMyDealerSAPv3
 {
@@ -56,12 +56,12 @@ namespace WSMyDealerSAPv3
             {
                 try
                 {
-                    String sql = "";
+                    String sql = ""; 
                     /*LQ 2023-02-27 carga en tabla de paso los registos de la vista */
                     if (nombreTablaVista.Equals("MD_PASO") && inicio == 0)
                     {
-                        sql = "drop table \"MD_PASO\"";
-                        OdbcCommand com1 = new OdbcCommand(sql, DBSqlServer.Conexion);
+                        sql = "IF OBJECT_ID('MD_PASO', 'U') IS NOT NULL DROP TABLE \"MD_PASO\"";
+                        SqlCommand com1 = new SqlCommand(sql, DBSqlServer.Conexion);
                         try
                         {
                             com1.ExecuteNonQuery();
@@ -71,8 +71,8 @@ namespace WSMyDealerSAPv3
                             Console.WriteLine(ex.Message);
                             logs.grabarLog(nombreTablaVista.ToUpper() + "_LQ", ex.Message);
                         }
-                        sql = "create table \"MD_PASO\" as  (select * from \"MD_CTASXCOBRAR\" )";
-                        OdbcCommand com2 = new OdbcCommand(sql, DBSqlServer.Conexion);
+                        sql = "select * into \"MD_PASO\" from \"MD_CTASXCOBRAR\"";
+                        SqlCommand com2 = new SqlCommand(sql, DBSqlServer.Conexion);
                         try
                         {
                             com2.ExecuteNonQuery();
@@ -92,10 +92,10 @@ namespace WSMyDealerSAPv3
                      */
                      sql = " select count(*) \"cantidad\" from \"" + nombreTablaVista + "\"  " + miWhere;
 
-                    OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                    SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                     com.CommandType = CommandType.Text;
 
-                    OdbcDataReader record = com.ExecuteReader();
+                    SqlDataReader record = com.ExecuteReader();
                     int cantidadRegistros = 0;
                     if (record.HasRows)
                     {
@@ -116,9 +116,16 @@ namespace WSMyDealerSAPv3
                     String auxXML = "";
                     sql = " select * from " + nombreTablaVista + " " + miWhere + " " + miOrder;
                     if (cantidad > 0)
-                        //sql += " where \"indice\" between " + inicio + " and " + (inicio+cantidad-1);
-                        sql += " LIMIT " + cantidad + " OFFSET " + inicio + "";
-                    com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                    {
+                        // SQL Server requiere ORDER BY para paginar con OFFSET/FETCH.
+                        if (String.IsNullOrWhiteSpace(miOrder))
+                        {
+                            sql += " ORDER BY 1";
+                        }
+
+                        sql += " OFFSET " + inicio + " ROWS FETCH NEXT " + cantidad + " ROWS ONLY";
+                    }
+                    com = new SqlCommand(sql, DBSqlServer.Conexion);
                     com.CommandType = CommandType.Text;
                     com.CommandTimeout = 120;
 

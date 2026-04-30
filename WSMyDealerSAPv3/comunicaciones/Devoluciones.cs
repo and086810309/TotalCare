@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml;
 using System.Data.SqlClient;
 using System.Data;
-using System.Data.Odbc;
+
 
 namespace WSMyDealerSAPv3
 {
@@ -51,9 +51,9 @@ namespace WSMyDealerSAPv3
 
                 String sql = "select numorden, DocNum, tipo, numdevolucion from md_devoluciones WITH (NOLOCK) where numdevolucion='" + numDevolucion + "' ";
 
-                OdbcCommand com = new OdbcCommand(sql, DBSqlServer.Conexion);
+                SqlCommand com = new SqlCommand(sql, DBSqlServer.Conexion);
                 com.CommandType = CommandType.Text;
-                OdbcDataReader record = com.ExecuteReader();
+                SqlDataReader record = com.ExecuteReader();
 
                 // int y = record.RecordCount;
                 //if (y > 0)
@@ -244,7 +244,7 @@ namespace WSMyDealerSAPv3
                             numlote
 
                      * [14:37:46] Danny Velastegui: ejemplo: cj24 es uomcode
-                       [14:37:51] Danny Velastegui: pero internamente es el código 9
+                       [14:37:51] Danny Velastegui: pero internamente es el c�digo 9
                      * 
                      * T0.[UomEntry], T0.[UomCode]
                      

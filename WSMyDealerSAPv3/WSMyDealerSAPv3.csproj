@@ -131,6 +131,16 @@
     <Compile Include="demoClienteNuevo.aspx.designer.cs">
       <DependentUpon>demoClienteNuevo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="devolucion\AutorizacionDV.cs" />
+    <Compile Include="devolucion\CabeceraDV.cs" />
+    <Compile Include="devolucion\DetalleDV.cs" />
+    <Compile Include="devolucion\Devolucion.cs" />
+    <Compile Include="devolucion\Ejemplo.cs" />
+    <Compile Include="devolucion\EtapaDV.cs" />
+    <Compile Include="devolucion\MantenimientoDevolucion.cs" />
+    <Compile Include="devolucion\ModeloDV.cs" />
+    <Compile Include="devolucion\MotivoDV.cs" />
+    <Compile Include="devolucion\RespuestaDV.cs" />
     <Compile Include="MBW\MBWBanco.cs" />
     <Compile Include="MBW\MBWBodegas.cs" />
     <Compile Include="MBW\MBWClienteFormapago.cs" />
@@ -146,6 +156,10 @@
     <Compile Include="MBW\MBWVendedores.cs" />
     <Compile Include="MBW\MBWVentas.cs" />
     <Compile Include="MBW\MBWZonas.cs" />
+    <Compile Include="notacredito\CabeceraNC.cs" />
+    <Compile Include="notacredito\DetalleNC.cs" />
+    <Compile Include="notacredito\NotaCredito.cs" />
+    <Compile Include="notacredito\RespuestaNC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WSIntegracion.asmx.cs">
       <DependentUpon>WSIntegracion.asmx</DependentUpon>

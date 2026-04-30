@@ -1,121 +1,150 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Data.SqlClient;
-using System.Data.Odbc;
 
 namespace WSMyDealerSAPv3
 {
     public class DBSqlServer
     {
-        private static OdbcConnection conexion = null;
-
-        public static OdbcConnection Conexion
-        {
-            get { return conexion; }
-        }
-
+        public static SqlConnection Conexion { get; private set; }
 
         private static int error;
         public static int IError
         {
-            get { return DBSqlServer.error; }
-            set { DBSqlServer.error = value; }
+            get { return error; }
+            set { error = value; }
         }
 
         private static string mensaje;
         public static string SError
         {
-            get { return DBSqlServer.mensaje; }
-            set { DBSqlServer.mensaje = value; }
+            get { return mensaje; }
+            set { mensaje = value; }
         }
 
         private static Respuesta respuesta = new Respuesta();
-
         public static Respuesta Respuesta
         {
-            get { return DBSqlServer.respuesta; }
-            set { DBSqlServer.respuesta = value; }
+            get { return respuesta; }
+            set { respuesta = value; }
         }
 
-        private static void conectar()
+        /// <summary>
+        /// Cadena de conexión SQL SERVER
+        /// </summary>
+        private static string GetConnectionString()
+        {
+            string servidor = DatosEnlace.ipBaseDatos.Replace("NDB@", "");
+            string baseDatos = DatosEnlace.nombreBaseDatos;
+            string usuario = DatosEnlace.usuarioBaseDatos;
+            string password = DatosEnlace.passwordBaseDatos;
+
+            // Puerto SQL Server
+            string puerto = "1433";
+
+            return $"Server={servidor},{puerto};" +
+                   $"Database={baseDatos};" +
+                   $"User Id={usuario};" +
+                   $"Password={password};" +
+                   $"TrustServerCertificate=True;" +
+                   $"Connection Timeout=15;";
+        }
+
+        /// <summary>
+        /// Obtiene conexión abierta
+        /// </summary>
+        public static SqlConnection GetConnection()
         {
             try
             {
-                if (conexion == null)
-                {
-                    conexion = new OdbcConnection();
-                    System.Threading.Thread.Sleep(750);
-                    //logs.grabarLog("DATA_AUX", "Conexion NULL");
-                }
-
-                if (conexion.State == System.Data.ConnectionState.Closed || conexion.State == System.Data.ConnectionState.Broken)
-                {
-                    if (conexion.State == System.Data.ConnectionState.Broken) conexion.Close();
-
-                    //conexion.ConnectionString = "Driver={HDBODBC};ServerNode=" + DatosEnlace.ipBaseDatos + ":" + DatosEnlace.puertoBaseDatos
-                    //    + ";CurrentSchema=" + DatosEnlace.nombreBaseDatos
-                    //    + ";UID=" + DatosEnlace.usuarioBaseDatos
-                    //    + ";Pwd=" + DatosEnlace.passwordBaseDatos;
-                    //conexion.ConnectionString = "Driver={HDBODBC};ServerNode=192.168.0.32:30013;CurrentSchema=DB_PRUEBAS03;UID=MYDEALER;Pwd=TQZzSrN2";
-                    string dns_code = "SAPHANNA32"; //usar para correr por codigo 
-                    string dns_iis = "SAPHANNA";
-                    conexion.ConnectionString = "DSN="+ dns_iis + ";ServerNode=" + DatosEnlace.ipBaseDatos.Replace("NDB@", "") + ":" + DatosEnlace.puertoBaseDatos
-                        +";CurrentSchema="+ DatosEnlace.nombreBaseDatos 
-                        + ";UID="+ DatosEnlace.usuarioBaseDatos + ";Pwd="+DatosEnlace.passwordBaseDatos;
-                }
-
-                if (conexion.State == System.Data.ConnectionState.Closed)
-                    conexion.Open();
-
-                if (conexion.State == System.Data.ConnectionState.Broken)
-                {
-                    conexion.Open();
-                }
-
-                if (conexion.State == System.Data.ConnectionState.Connecting)
-                {
-                    while (true)
-                    {
-                        if (conexion.State == System.Data.ConnectionState.Open)
-                            break;
-                        System.Threading.Thread.Sleep(450);
-                    }
-                }
-
-                respuesta.Exito = true;
+                SqlConnection connection = new SqlConnection(GetConnectionString());
+                connection.Open();
+                return connection;
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                respuesta.Exito = false;
-                respuesta.CodigoError = "Problema al abri la conexion";
-                respuesta.CodigoRespuesta = "CON001";
-                respuesta.DescripcionError = "Error al conectar a la Base de Datos. " + e.Message;
-                Console.WriteLine(e.Message);
-                logs.grabarLog("DATA", e.Message);
-                logs.grabarLog("DATA_DEBUG", e.StackTrace);
+                logs.grabarLog("SQL_CONN_ERROR", ex.Message);
+                logs.grabarLog("SQL_CONN_ERROR_DEBUG", ex.StackTrace);
+                throw;
             }
         }
 
+        /// <summary>
+        /// Prueba de conexión desde el WS
+        /// </summary>
+        public static Respuesta ProbarConexion()
+        {
+            Respuesta resp = new Respuesta();
+
+            try
+            {
+                using (SqlConnection cn = GetConnection())
+                {
+                    resp.Exito = true;
+                    resp.CodigoRespuesta = "OK";
+                    resp.DescripcionError = "Conexión exitosa a SQL Server";
+                    logs.grabarLog("SQL_TEST", "CONEXION EXITOSA SQL SERVER");
+                }
+            }
+            catch (Exception ex)
+            {
+                resp.Exito = false;
+                resp.CodigoError = "CON001";
+                resp.CodigoRespuesta = "Error de conexión SQL Server";
+                resp.DescripcionError = ex.Message;
+
+                logs.grabarLog("SQL_TEST_ERROR", ex.Message);
+                logs.grabarLog("SQL_TEST_ERROR_DEBUG", ex.StackTrace);
+            }
+
+            return resp;
+        }
+
+        /// <summary>
+        /// Método opcional de verificación manual
+        /// </summary>
         public static void ConectaDB()
         {
-            conectar();
+            try
+            {
+                if (Conexion != null)
+                {
+                    if (Conexion.State != System.Data.ConnectionState.Closed)
+                    {
+                        Conexion.Close();
+                    }
+
+                    Conexion.Dispose();
+                }
+
+                Conexion = GetConnection();
+                respuesta.Exito = true;
+                respuesta.CodigoError = "";
+                respuesta.CodigoRespuesta = "OK";
+                respuesta.DescripcionError = "";
+            }
+            catch (Exception ex)
+            {
+                respuesta.Exito = false;
+                respuesta.CodigoError = "CON001";
+                respuesta.CodigoRespuesta = "Error de conexión SQL Server";
+                respuesta.DescripcionError = ex.Message;
+            }
         }
 
         public static void DesconectaDB()
         {
-            try
+            if (Conexion != null)
             {
-                respuesta.Exito = true;
-            }
-            catch (Exception e)
-            {
-                respuesta.Exito = false;
-                respuesta.CodigoError = "CON002";
-                respuesta.DescripcionError = "Error al desconectar a la Compañia. " + e.Message;
-            }
-        }
+                if (Conexion.State != System.Data.ConnectionState.Closed)
+                {
+                    Conexion.Close();
+                }
 
+                Conexion.Dispose();
+                Conexion = null;
+            }
+
+            respuesta.Exito = true;
+        }
     }
 }
