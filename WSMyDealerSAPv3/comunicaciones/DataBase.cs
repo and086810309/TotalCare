@@ -45,19 +45,35 @@ namespace WSMyDealerSAPv3
             Company company = null;
             try
             {
+                error = 0;
+                mensaje = "";
                 respuesta.Exito = false;
+                respuesta.CodigoError = "";
+                respuesta.CodigoRespuesta = "";
+                respuesta.DescripcionError = "";
 
                 company = new Company();
 
-                company.Server = DatosEnlace.ipBaseDatos + ":" + DatosEnlace.puertoBaseDatos; // "SAPSRVBBDD";
+                string servidorDIAPI = !String.IsNullOrWhiteSpace(DatosEnlace.servidorSAPDIAPI)
+                    ? DatosEnlace.servidorSAPDIAPI.Trim()
+                    : DatosEnlace.ipBaseDatos.Trim();
 
-                company.CompanyDB = DatosEnlace.nombreBaseDatos; // "DB_CAPACITACION";
-                company.UserName = DatosEnlace.usuarioSAP; // "mydealer";
+                string servidorLicencia = DatosEnlace.ipServidorLicencia.Trim() + ":" + DatosEnlace.puertoServidorLicencia.Trim();
+                string servidorSLD = !String.IsNullOrWhiteSpace(DatosEnlace.servidorSLD)
+                    ? DatosEnlace.servidorSLD.Trim()
+                    : "https://" + DatosEnlace.ipServidorLicencia.Trim() + ":40000";
+
+                company.Server = servidorDIAPI; // + ":" + DatosEnlace.puertoBaseDatos; // "SAPSRVBBDD";
+
+                company.CompanyDB = DatosEnlace.nombreBaseDatos.Trim(); // "DB_CAPACITACION";
+                company.UserName = DatosEnlace.usuarioSAP.Trim(); // "mydealer";
                 company.Password = DatosEnlace.passwordSAP; // "myd321";
-                company.DbUserName = DatosEnlace.usuarioBaseDatos; // "mydealer";
+                company.DbUserName = DatosEnlace.usuarioBaseDatos.Trim(); // "mydealer";
                 company.DbPassword = DatosEnlace.passwordBaseDatos; // "myd321";
                 company.language = BoSuppLangs.ln_Spanish_La;
+                company.UseTrusted = false;
 
+                
                 switch (DatosEnlace.tipoBaseDatos)
                 {
                     case "dst_MSSQL2008":
@@ -75,12 +91,19 @@ namespace WSMyDealerSAPv3
                     case "dst_HANADB":
                         company.DbServerType = BoDataServerTypes.dst_HANADB;
                         break;
+                    case "dst_MSSQL2019":
+                        company.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2019;
+                        break;
 
                 }
 
-                company.LicenseServer = DatosEnlace.ipServidorLicencia + ":" + DatosEnlace.puertoServidorLicencia;
+                company.LicenseServer = servidorLicencia;
+                SetCompanyPropertyIfExists(company, "SLDServer", servidorSLD);
 
-                company.UseTrusted = false;
+                logs.grabarLog("SAP_BDD", "SERVER:" + company.Server + " BDD:" + company.CompanyDB + " USER SAP:" + company.UserName
+                    + " PASS SAP:******** DbUserName:" + company.DbUserName + " DbPassword:********"
+                    + " LicenseServer:" + company.LicenseServer + " SLDServer:" + servidorSLD + " DbServerType:" + company.DbServerType);
+
                 error = company.Connect();
                 if (error != 0)
                 {
@@ -91,17 +114,33 @@ namespace WSMyDealerSAPv3
             }
             catch (Exception e)
             {
-                company = null;
                 respuesta.Exito = false;
                 respuesta.CodigoError = error.ToString();
                 respuesta.CodigoRespuesta = "COM001";
-                respuesta.DescripcionError = mensaje; //  "Error al conectar a la Compañia";
+                respuesta.DescripcionError = !String.IsNullOrEmpty(mensaje) ? mensaje : e.Message; //  "Error al conectar a la Compañia";
                 //Console.WriteLine(e.Message);
                 logs.grabarLog("SAP_BDD", e.Message);
                 logs.grabarLog("SAP_BDD_DEBUG", e.StackTrace);
             }
 
             return company;
+        }
+
+        private static void SetCompanyPropertyIfExists(Company company, string propertyName, string value)
+        {
+            try
+            {
+                company.GetType().InvokeMember(
+                    propertyName,
+                    System.Reflection.BindingFlags.SetProperty,
+                    null,
+                    company,
+                    new object[] { value });
+            }
+            catch (Exception ex)
+            {
+                logs.grabarLog("SAP_BDD", propertyName + " no disponible en esta DI API: " + ex.Message);
+            }
         }
 
 

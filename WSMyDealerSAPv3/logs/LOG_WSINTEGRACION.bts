@@ -240,3 +240,7 @@ Nombre del parámetro: s
    en System.Xml.XmlDocument.LoadXml(String xml)
    en WSMyDealerSAPv3.Cobranza.StringToListSeccionDocumentos(String XML) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\comunicaciones\Cobranza.cs:línea 907
    en WSMyDealerSAPv3.WSIntegracion.guardarCobranza(SeccionPagosEfectivo cabeceraPagos, String xmlDocumentos, String xmlPagos) en C:\ETECH\Codigo\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 228
+04-05-2026 04:32 p. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+04-05-2026 04:32 p. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.verificarConexionSQL() en D:\Etecnology\TotalCare\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 32
+04-05-2026 04:34 p. m.	 >>> 	Referencia a objeto no establecida como instancia de un objeto.
+04-05-2026 04:34 p. m.	 >>> 	   en WSMyDealerSAPv3.WSIntegracion.verificarConexionSQL() en D:\Etecnology\TotalCare\WSMyDealerSAPv3\WSMyDealerSAPv3\WSIntegracion.asmx.cs:línea 32

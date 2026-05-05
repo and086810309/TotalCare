@@ -34,7 +34,7 @@ namespace WSMyDealerSAPv3
                 }
                 else
                 {
-                    return "Correcto - BDD conectada por DI API";
+                    return "Correcto - BDD conectada por SQL";
                 }
             }
             catch (Exception e)
@@ -50,14 +50,19 @@ namespace WSMyDealerSAPv3
         {
             List<String> response = new List<String>();
             string respuesta = "";
+            Company company = null;
             try
             {
-                Company company = null;
+                
                 company = DataBase.conectar();
                 if (!DataBase.Respuesta.Exito)
                 {
                     DatosEnlace.release_variables();
-                    return " LICENCIA SERVER" + company.LicenseServer + " BDD " + company.CompanyDB + " SERVER " + company.Server + " USER BDD " + company.DbUserName + " PASS BDD " + company.DbPassword + "  " + DataBase.Respuesta.CodigoError + " - " + DataBase.Respuesta.CodigoRespuesta + " - " + DataBase.Respuesta.DescripcionError;
+                    string detalleConexion = company == null
+                        ? "No se pudo inicializar SAPbobsCOM.Company"
+                        : " LICENCIA SERVER " + company.LicenseServer + " BDD " + company.CompanyDB + " SERVER " + company.Server + " USER BDD " + company.DbUserName + " DB TYPE " + company.DbServerType;
+
+                    return detalleConexion + "  " + DataBase.Respuesta.CodigoError + " - " + DataBase.Respuesta.CodigoRespuesta + " - " + DataBase.Respuesta.DescripcionError;
                 }
                 else
                 {
@@ -71,7 +76,7 @@ namespace WSMyDealerSAPv3
                 DatosEnlace.release_variables();
                 logs.grabarLog("LOG_WSINTEGRACION", e.Message);
                 logs.grabarLog("LOG_WSINTEGRACION", e.StackTrace);
-                return DataBase.Respuesta.CodigoError + " - " + DataBase.Respuesta.CodigoRespuesta + " - " + DataBase.Respuesta.DescripcionError;
+                return  DataBase.Respuesta.CodigoError + " - " + DataBase.Respuesta.CodigoRespuesta + " - " + DataBase.Respuesta.DescripcionError;
             }
         }
 

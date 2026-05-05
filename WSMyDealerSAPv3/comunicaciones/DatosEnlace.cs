@@ -10,6 +10,8 @@ namespace WSMyDealerSAPv3
     {
         public static string ipBaseDatos = ConfigurationManager.AppSettings["ipBaseDatos"]; // ip de la base de datos de SBO
         public static string puertoBaseDatos = ConfigurationManager.AppSettings["puertoBaseDatos"];
+        public static string servidorSAPDIAPI = ConfigurationManager.AppSettings["servidorSAPDIAPI"]; // nombre/IP del servidor tal como esta registrado en SLD para DI API
+        public static string servidorSLD = ConfigurationManager.AppSettings["servidorSLD"]; // servidor SLD/licencia para DI API
 
         public static string nombreBaseDatos = ConfigurationManager.AppSettings["nombreBaseDatos"]; // nombre de la base de datos SBO-COMMON
         public static string usuarioBaseDatos = ConfigurationManager.AppSettings["usuarioBaseDatos"]; // usuario de la base de datos de SAP
